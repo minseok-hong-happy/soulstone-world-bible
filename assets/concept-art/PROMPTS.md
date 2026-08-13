@@ -1,5 +1,42 @@
 # 콘셉트 아트 프롬프트 기록
 
+## 3차 공통 스타일 기준
+
+```text
+Original casual modern 2D TV anime concept art designed for repeatable weekly animation.
+Clean medium-weight outlines, normal anime proportions, approachable readable faces,
+large simple costume and material shapes, bright flat colors, one main cel-shadow tone,
+very sparse highlights and restrained effects.
+Preserve each character's role, species, Soulstone color, weapon and core silhouette.
+No chibi proportions, photorealism, gritty cinematic finish, painterly or 3D materials,
+micro-ornament, dense particles, logos, watermarks or text.
+```
+
+### 3차 입력 이미지 역할
+
+- 각 `anime-v2` 이미지는 캐릭터, 종족, 무기, 소울스톤 색, 장면 역할과 구도를 이어 가기 위한 `편집 대상`으로 사용했다.
+- 3차 수정에서는 배경 정보, 의상 장식, 털·비늘·깃털·광물의 내부선, 마법 파티클을 우선적으로 줄였다.
+- `캐주얼`은 SD나 치비가 아니라 주간 TV 애니메이션에서 반복 작화하기 쉬운 정상 비율의 디자인을 뜻한다.
+- 모든 결과물은 내장 이미지 편집 도구로 만들었으며 `anime-v3` 폴더에 비파괴 방식으로 저장했다.
+
+### 3차 이미지 경로
+
+1. `anime-v3/01-protagonist-and-wolf-anime-v3.png`
+2. `anime-v3/02-older-brother-adaptive-evolution-anime-v3.png`
+3. `anime-v3/03-first-marshal-lord-of-frozen-crown-anime-v3.png`
+4. `anime-v3/04-family-before-tragedy-anime-v3.png`
+5. `anime-v3/05-beastfolk-leaders-anime-v3.png`
+6. `anime-v3/06-troll-leader-anime-v3.png`
+7. `anime-v3/07-golem-leader-anime-v3.png`
+8. `anime-v3/08-spiderfolk-insect-alliance-anime-v3.png`
+9. `anime-v3/09-orc-sword-saint-anime-v3.png`
+10. `anime-v3/10-half-dragon-companion-anime-v3.png`
+11. `anime-v3/11-abandoned-human-trio-anime-v3.png`
+12. `anime-v3/12-human-alliance-command-anime-v3.png`
+13. `anime-v3/13-shadow-unit-anime-v3.png`
+14. `anime-v3/14-merfolk-and-harpy-allies-anime-v3.png`
+15. `anime-v3/15-living-castle-final-battle-anime-v3.png`
+
 ## 2차 공통 스타일 기준
 
 ```text
