@@ -37,6 +37,13 @@ micro-ornament, dense particles, logos, watermarks or text.
 14. `anime-v3/14-merfolk-and-harpy-allies-anime-v3.png`
 15. `anime-v3/15-living-castle-final-battle-anime-v3.png`
 
+### 3차 캐릭터 디자인 보정
+
+- `05-beastfolk-leaders-anime-v3.png`: 늑대인간과 사자인간을 완전한 동물 머리형에서 잘생긴 인간형으로 변경했다. 늑대 귀·꼬리·송곳니·발톱과 사자 귀·꼬리·갈기·볼털은 유지했다.
+- `06-troll-leader-anime-v3.png`: 넓은 어깨와 강한 체격, 반듯한 얼굴과 여유 있는 표정으로 변경했다. 제작된 망치 대신 자연 손잡이가 이어진 몸통만 한 비대칭 하늘빛 수정 원석을 사용한다.
+- `07-golem-leader-anime-v3.png`: 거대한 바위 더미형에서 사람 얼굴과 두 팔·두 다리를 갖춘 인간형 광물 생명으로 변경했다. 한쪽 팔 일부만 다리로 변형한다.
+- `09-orc-sword-saint-anime-v3.png`: 압도적인 체격과 두꺼운 중갑, 넓은 광폭 대검, 흔들리지 않는 수직 자세로 강하고 우직한 호위무사의 존재감을 강화했다.
+
 ## 2차 공통 스타일 기준
 
 ```text
