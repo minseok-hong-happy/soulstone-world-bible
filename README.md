@@ -12,6 +12,9 @@
 - [소울스톤 규칙집](docs/05-soulstone-rules.md)
 - [추가 의사결정 항목](docs/06-open-decisions.md)
 - [콘셉트 아트 안내](assets/concept-art/README.md)
+- [통일 캐릭터 콘셉트 아트 `anime-v4`](assets/concept-art/anime-v4/README.md)
+- [추가 중요 인물 콘셉트 아트](assets/concept-art/important-characters-v1/README.md)
+- [시즌 1 전 60화 대표 이미지](assets/episode-keyframes/season-01/README.md)
 
 ## 현재 확정된 이야기의 중심
 
