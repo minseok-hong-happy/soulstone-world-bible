@@ -1,36 +1,36 @@
 # 콘셉트 아트 갤러리
 
-> 기본 표시는 3차 `anime-v3` 시안이다. 2차보다 배경 정보, 의상 장식, 재질선과 효과를 더 줄이고 밝은 색면과 1단 중심 셀 명암을 사용해 캐주얼한 TV 애니메이션 설정화로 다시 제작했다. 기존 극사실풍 1차와 액션 애니풍 2차 이미지는 비교와 이력 보존을 위해 그대로 남겨 두었다.
+> 기본 표시는 4차 `anime-v4` 시안이다. 사용자가 선호한 반인반수 지도자와 2인자의 톤을 공통 기준으로 삼아, 매력적인 인간형 얼굴·선명한 종족 특징·가벼운 TV 애니메이션 셀 채색으로 전 인물을 통일했다. 기존 1~3차 이미지는 비교와 이력 보존을 위해 그대로 남겨 두었다.
 >
 > 이름, 성별, 세부 능력이 아직 결정되지 않은 인물은 정본 디자인이 아니며 해당 결정 후 수정할 수 있다.
 
 ## 1. 주인공과 늑대
 
-![주인공과 큰 늑대](anime-v3/01-protagonist-and-wolf-anime-v3.png)
+![주인공과 큰 늑대](anime-v4/01-protagonist-and-wolf-anime-v4.png)
 
-- 피와 얼음이 나뉜 이마의 소울스톤, 등에 멘 쌍검, 자연의 큰 늑대를 표현했다.
+- 은백색 머리, 옅은 청색 안에 붉은 결이 불규칙하게 흐르는 혼합 소울스톤, 등에 멘 쌍검, 자연의 큰 늑대를 표현했다.
 
 ## 2. 적응 진화한 첫째 형
 
-![적응 진화한 첫째 형](anime-v3/02-older-brother-adaptive-evolution-anime-v3.png)
+![적응 진화한 첫째 형](anime-v4/02-older-brother-adaptive-evolution-anime-v4.png)
 
 - 인간 장군의 외형과 한쪽에만 발현된 적응 진화, 실험 병기라는 배경을 표현했다.
 
 ## 3. 1대 원수와 빙관의 군주
 
-![1대 원수와 빙관의 군주](anime-v3/03-first-marshal-lord-of-frozen-crown-anime-v3.png)
+![1대 원수와 빙관의 군주](anime-v4/03-first-marshal-lord-of-frozen-crown-anime-v4.png)
 
 - 거대한 얼음 마법보다 절제된 얼음 보조와 완성된 검술을 중심에 뒀다.
 
 ## 4. 비극 이전의 가족
 
-![비극 이전의 가족](anime-v3/04-family-before-tragedy-anime-v3.png)
+![비극 이전의 가족](anime-v4/04-family-before-tragedy-anime-v4.png)
 
 - 목걸이 속 가족사진의 기반 시안. 부모, 두 아들, 어머니와 함께 자란 늑대를 담았다.
 
 ## 5. 반인반수의 지도자와 2인자
 
-![늑대인간 지도자와 사자인간 2인자](anime-v3/05-beastfolk-leaders-anime-v3.png)
+![늑대인간 지도자와 사자인간 2인자](anime-v4/05-beastfolk-leaders-anime-v4.png)
 
 - 회백색 늑대인간이 유일한 최종 지도자이고 사자인간이 존중받는 공식 2인자라는 관계를 표현했다.
 - 두 인물 모두 잘생긴 인간형 얼굴을 기본으로 하며, 늑대 귀·꼬리·송곳니·발톱과 사자 귀·꼬리·갈기·볼털로 종족의 특징을 구분했다.
@@ -38,70 +38,76 @@
 
 ## 6. 트롤 대장
 
-![수정동굴의 트롤 대장](anime-v3/06-troll-leader-anime-v3.png)
+![수정동굴의 트롤 대장](anime-v4/06-troll-leader-anime-v4.png)
 
 - 넓은 어깨와 여유 있는 표정을 지닌 매력적인 지도자로 강화했다. 무기는 가공한 망치가 아니라 충격이 쌓일수록 무거워지는 몸통만 한 수정 원석이다.
 
 ## 7. 골렘 대장
 
-![자연 생명인 골렘 대장](anime-v3/07-golem-leader-anime-v3.png)
+![자연 생명인 골렘 대장](anime-v4/07-golem-leader-anime-v4.png)
 
 - 사람 얼굴과 두 팔·두 다리를 갖춘 인간형 자연 광물 생명이다. 인간형을 유지하면서 한쪽 팔을 다리나 방벽으로 바꾸어 피난민을 돕는다.
 
 ## 8. 거미인간과 곤충연합
 
-![거미인간 대장과 곤충연합](anime-v3/08-spiderfolk-insect-alliance-anime-v3.png)
+![거미인간 대장과 곤충연합](anime-v4/08-spiderfolk-insect-alliance-anime-v4.png)
 
 - 거미, 딱정벌레, 벌, 사마귀, 나방 공동체가 독립성을 유지한 채 통신망으로 연결된 연합이다.
 
 ## 9. 오크 검성 호위무사
 
-![오크 검성 호위무사](anime-v3/09-orc-sword-saint-anime-v3.png)
+![오크 검성 호위무사](anime-v4/09-orc-sword-saint-anime-v4.png)
 
 - 압도적인 체격, 두꺼운 중갑과 광폭 대검을 지닌 움직이는 방벽 같은 검객이다. 강하고 우직하지만 광전사가 아니며, 정확한 거리와 최소 동작으로 난민과 주인공을 지킨다. 고유 능력은 아직 미정이다.
 
 ## 10. 반인반용 동료
 
-![반인반용 동료](anime-v3/10-half-dragon-companion-anime-v3.png)
+![반인반용 동료](anime-v4/10-half-dragon-companion-anime-v4.png)
 
 - 자신의 혼혈성을 긍정하는 인물의 초기 시안. 성별과 구체 능력은 아직 정본이 아니다.
 
 ## 11. 버림받은 인간 세 사람
 
-![붉은 번개 주술사, 단검 사용자, 도끼 전사](anime-v3/11-abandoned-human-trio-anime-v3.png)
+![붉은 번개 주술사, 단검 사용자, 도끼 전사](anime-v4/11-abandoned-human-trio-anime-v4.png)
 
 - 장로회 실험 생존자, 학살 명령을 거부한 정보 요원, 괴물 아이를 지킨 탈영병을 한 팀으로 표현했다.
 
 ## 12. 인간 연합 지휘부
 
-![3대 원수와 네 군 대장](anime-v3/12-human-alliance-command-anime-v3.png)
+![3대 원수와 네 군 대장](anime-v4/12-human-alliance-command-anime-v4.png)
 
 - 중앙의 회색 염동력 3대 원수와 모래·바람·강철·빛의 네 군 대장 시안이다.
 
 ## 13. 흑영대
 
-![그림자 특수부대 흑영대](anime-v3/13-shadow-unit-anime-v3.png)
+![그림자 특수부대 흑영대](anime-v4/13-shadow-unit-anime-v4.png)
 
 - 암살보다 수용소 개방과 구조를 수행하는 인간·괴물 혼성 특수부대다. 리더의 출신은 아직 미정이다.
 
 ## 14. 어인족과 하피족
 
-![지역 동맹 어인족과 하피족](anime-v3/14-merfolk-and-harpy-allies-anime-v3.png)
+![지역 동맹 어인족과 하피족](anime-v4/14-merfolk-and-harpy-allies-anime-v4.png)
 
 - 여행조가 아니라 바다와 하늘에서 각자의 고향을 지키며 최종전의 구조를 돕는 지역 동맹이다.
 
 ## 15. 살아난 성과 최종 구조전
 
-![죽으면서 무너지는 성의 신생명](anime-v3/15-living-castle-final-battle-anime-v3.png)
+![죽으면서 무너지는 성의 신생명](anime-v4/15-living-castle-final-battle-anime-v4.png)
 
 - 골렘이 아닌 새로운 생명. 중세 성 전체가 신경과 장기를 가진 육체가 되고, 생명이 죽으면서 성이 자연 붕괴한다.
 - 마지막 전투의 중심을 처치가 아니라 인간과 괴물이 함께 수행하는 민간인 구조에 뒀다.
 
+## 확장 갤러리
+
+- [`anime-v4` 통일 캐릭터 시안](anime-v4/README.md)
+- [추가 중요 인물 18명](important-characters-v1/README.md)
+- [시즌 1 전 60화 대표 이미지](../episode-keyframes/season-01/README.md)
+
 ## 제작 기록
 
-- 3차 공통 방향: 오리지널 캐주얼 2D TV 애니메이션풍, 중간 굵기의 선화, 밝은 평면 색, 1단 중심 셀 명암, 큰 형태 위주의 의상·재질·배경.
+- 4차 공통 방향: 반인반수 지도자·2인자의 매력적인 인간형 비율을 기준으로 한 오리지널 캐주얼 2D TV 애니메이션풍, 중간 굵기의 선화, 밝은 평면 색, 절제된 셀 명암, 읽기 쉬운 종족 실루엣.
 - 캐주얼은 SD나 치비가 아니라 주간 TV 애니메이션에서 반복 작화할 수 있는 정도의 단순화를 의미한다. 인물의 위압감과 핵심 실루엣은 유지했다.
 - 사용자 제공 예시는 선의 무게, 셀 채색과 형태 단순화만 참고했다. 예시 속 캐릭터, 얼굴, 헤어, 문양, 의상, 포즈, 구도와 글자는 사용하지 않았다.
-- 기존 1차 사실풍 이미지는 상위 폴더에, 2차 액션 애니풍 이미지는 `anime-v2` 폴더에 보존했다.
+- 기존 1차 사실풍 이미지는 상위 폴더에, 2차 액션 애니풍은 `anime-v2`, 3차 캐주얼 시안은 `anime-v3` 폴더에 보존했다.
 - 이미지에는 로고, 워터마크, 작품명을 넣지 않았다.
 - 재현과 수정용 요약 프롬프트는 [PROMPTS.md](PROMPTS.md)에 기록했다.
