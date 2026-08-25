@@ -2,6 +2,10 @@
 
 웹툰·출판 만화·애니메이션·게임으로 확장하기 위한 다크 판타지 프로젝트의 통합 설정 저장소입니다. `소울스톤`은 현재 작품의 가제이자 핵심 설정명입니다.
 
+## 웹 아카이브
+
+- [소울스톤 세계관·인물·60화 웹툰 보기](https://minseok-hong-happy.github.io/soulstone-world-bible/)
+
 ## 문서
 
 - [확정 의사결정 기록](docs/00-canon-decisions.md)
