@@ -1,0 +1,82 @@
+:root {
+  color-scheme: light;
+  --paper: #f2eee5;
+  --paper-deep: #e8e0d2;
+  --ink: #242321;
+  --muted: #706d66;
+  --line: rgba(48, 43, 36, .17);
+  --ice: #246c8d;
+  --blood: #9c3f4e;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    linear-gradient(rgba(255,255,255,.22), rgba(255,255,255,.22)),
+    repeating-linear-gradient(0deg, transparent 0 31px, rgba(65,55,43,.018) 32px),
+    var(--paper);
+  color: var(--ink);
+  font-family: "Noto Serif KR", "Nanum Myeongjo", Batang, serif;
+}
+a { color: inherit; }
+.reading-progress { position: fixed; inset: 0 0 auto; z-index: 1000; height: 3px; background: rgba(0,0,0,.05); }
+.reading-progress span { display: block; width: 0; height: 100%; background: linear-gradient(90deg,var(--ice),var(--blood)); }
+.book-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 68px;
+  padding: 0 max(1rem, calc((100vw - 1120px) / 2));
+  border-bottom: 1px solid var(--line);
+  background: rgba(242,238,229,.9);
+  backdrop-filter: blur(16px);
+  font-family: system-ui, sans-serif;
+}
+.book-brand { display: inline-flex; align-items: center; gap: .65rem; text-decoration: none; }
+.book-brand > span { width: .95rem; height: 1.25rem; clip-path: polygon(50% 0,94% 24%,79% 84%,50% 100%,15% 85%,4% 24%); background: linear-gradient(145deg,#aee9ff,#4b9ec1 43%,#9a5772 80%); }
+.book-brand b { font-size: .86rem; letter-spacing: .08em; }
+.book-brand small { color: var(--muted); font-size: .68rem; }
+.book-toolbar nav { display: flex; gap: .25rem; }
+.book-toolbar nav a { padding: .5rem .65rem; color: var(--muted); font-size: .75rem; font-weight: 750; text-decoration: none; }
+
+.book-layout { display: grid; grid-template-columns: 13rem minmax(0, 42rem); gap: clamp(3rem, 8vw, 8rem); width: min(calc(100% - 3rem), 1020px); margin: 0 auto; padding: 6rem 0 10rem; }
+.chapter-rail { position: sticky; top: 100px; align-self: start; max-height: calc(100vh - 130px); overflow: auto; font-family: system-ui, sans-serif; }
+.chapter-rail > p { margin: 0 0 1.1rem; color: var(--blood); font-size: .63rem; font-weight: 900; letter-spacing: .2em; }
+.chapter-rail nav { display: grid; }
+.chapter-rail a { padding: .52rem 0; border-bottom: 1px solid var(--line); color: var(--muted); font-size: .73rem; line-height: 1.35; text-decoration: none; }
+.chapter-rail a:hover { color: var(--ink); }
+
+.novel { min-width: 0; }
+.novel > h1 { margin: 0 0 1rem; font-size: clamp(2.7rem, 7vw, 5.1rem); line-height: 1.05; letter-spacing: -.065em; word-break: keep-all; }
+.novel > blockquote { margin: 0 0 7rem; padding: 1.1rem 1.25rem; border-left: 3px solid var(--blood); background: rgba(255,255,255,.35); color: var(--muted); font-family: system-ui, sans-serif; font-size: .8rem; line-height: 1.7; }
+.novel h2 { scroll-margin-top: 100px; margin: 8rem 0 2.3rem; padding-top: 1.1rem; border-top: 1px solid var(--line); font-size: clamp(1.8rem, 4vw, 2.45rem); line-height: 1.25; letter-spacing: -.045em; }
+.novel h2::before { content: "◆"; display: block; margin-bottom: .85rem; color: var(--blood); font-size: .62rem; }
+.novel p { margin: 0 0 1.45rem; font-size: clamp(1rem, 1.8vw, 1.08rem); line-height: 2.05; word-break: keep-all; }
+.novel h2 + p::first-letter { float: left; margin: .12rem .28rem 0 0; color: var(--blood); font-size: 3.6rem; font-weight: 700; line-height: .8; }
+.novel .loading { color: var(--muted); font-family: system-ui, sans-serif; }
+.book-footer { display: flex; justify-content: space-between; width: min(calc(100% - 3rem), 860px); margin: 0 auto; padding: 2rem 0 4rem; border-top: 1px solid var(--line); font-family: system-ui, sans-serif; }
+.book-footer a { font-size: .8rem; font-weight: 750; text-decoration: none; }
+.noscript { padding: 2rem; text-align: center; }
+
+@media (max-width: 800px) {
+  .book-layout { grid-template-columns: 1fr; width: min(calc(100% - 2rem), 42rem); padding-top: 3.5rem; }
+  .chapter-rail { position: static; max-height: none; }
+  .chapter-rail nav { grid-template-columns: repeat(2, 1fr); gap: 0 1rem; }
+  .novel > blockquote { margin-bottom: 5rem; }
+}
+@media (max-width: 540px) {
+  .book-toolbar { min-height: 60px; }
+  .book-toolbar nav a:not(:last-child) { display: none; }
+  .book-layout { padding-bottom: 6rem; }
+  .chapter-rail nav { grid-template-columns: 1fr; }
+  .novel > h1 { font-size: 3rem; }
+  .novel h2 { margin-top: 6rem; }
+  .novel p { line-height: 1.95; }
+  .book-footer { align-items: flex-start; flex-direction: column; gap: 1rem; width: min(calc(100% - 2rem), 42rem); }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
