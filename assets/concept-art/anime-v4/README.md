@@ -45,7 +45,7 @@
 
 ![골렘 대장](07-golem-leader-anime-v4.png)
 
-사람 크기의 미형 인간형 광물 생명. 매끈한 석질 피부와 황금빛 균열로 종족을 표현한다.
+사용자가 선택한 5번 사암 수도자 최종안. 거대한 인간형 사암 생명과 황금빛 균열은 유지하면서, 강하지만 먼저 손을 내밀 것 같은 부드러운 눈매와 미소를 적용했다.
 
 ### 8. 거미인간과 곤충연합
 
@@ -82,5 +82,6 @@
 ## 관련 자료
 
 - [추가 중요 인물 18명](../important-characters-v1/README.md)
+- [어인족 지도자 후보 10안](../merfolk-candidates-v1/README.md)
 - [시즌 1 전 60화 대표 이미지](../../episode-keyframes/season-01/README.md)
 - [이미지 제작 지침과 재현 프롬프트](../ART-DIRECTION-AND-PROMPTS.md)
