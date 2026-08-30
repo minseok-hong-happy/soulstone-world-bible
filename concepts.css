@@ -14,6 +14,7 @@ main, footer { width:min(calc(100% - 3rem),1180px); margin:0 auto; }
 .concept-intro div p { margin:0 0 1.2rem; color:var(--muted); line-height:1.75; }
 .concept-intro div strong { color:var(--gold); }
 .selected-design { display:grid; grid-template-columns:1fr 1fr; overflow:hidden; border:1px solid rgba(230,197,104,.32); border-radius:1.25rem; background:linear-gradient(135deg,#171b25,#101a2b); }
+.selected-design + .selected-design { margin-top:2rem; }
 .selected-design > a { min-height:40rem; }
 .selected-design img { display:block; width:100%; height:100%; aspect-ratio:2/3; object-fit:cover; object-position:top center; }
 .selected-design > div { display:flex; flex-direction:column; justify-content:center; padding:clamp(2rem,6vw,5rem); }
