@@ -20,7 +20,7 @@
     ["반인반수 지도부", "동맹", "assets/characters/anime-v4/05-beastfolk-leaders-anime-v4.jpg", "늑대인간이 유일한 최종 지도자이며 사자인간은 전투와 외교를 맡는 정식 2인자다.", ["야수와 바람", "늑대인간", "사자인간"]],
     ["트롤 대장", "동료", "assets/characters/anime-v4/06-troll-leader-anime-v4.jpg", "선조의 영혼과 약속을 중시하는 수정동굴의 젊은 지도자. 하나의 거대 수정 유물을 휘두른다.", ["충격 저장", "수정 병기", "약속"]],
     ["골렘 대장", "동료", "assets/characters/anime-v4/07-golem-leader-anime-v4.jpg", "기계가 아닌 자연의 광물 생명. 전투보다 방벽과 교량, 터널과 피난로를 만드는 데 강하다.", ["자연 골렘", "구조", "금빛 생명선"]],
-    ["거미인간 대장", "동료", "assets/characters/anime-v4/08-spiderfolk-insect-alliance-anime-v4.jpg", "곤충 공동체를 대표하는 냉철한 여성 지도자. 실과 진동으로 거대한 정보망을 만든다.", ["극세 실", "진동 감지", "곤충 공동체"]],
+    ["거미인간 대장", "동료", "assets/characters/anime-v4/08-spiderfolk-insect-alliance-anime-v4.jpg", "09 백색동굴거미 청망자. 감각실의 진동으로 먼 움직임과 안전한 길을 읽는 여성 지도자다.", ["감각실", "진동 감지", "곤충 공동체"]],
     ["오크 검성", "동료", "assets/characters/anime-v4/09-orc-sword-saint-anime-v4.jpg", "움직이는 방벽 같은 체격과 달리 최소 동작과 정확한 거리로 주인공을 지키는 호위무사.", ["호위", "대검", "절대 거리"]],
     ["반인반용", "동료", "assets/characters/anime-v4/10-half-dragon-companion-anime-v4.jpg", "인간과 용 어느 쪽의 인정도 목표로 삼지 않는 혼혈 동료. 주인공이 자신의 혈통을 받아들이게 한다.", ["용의 혈통", "혼혈", "해군 대장전"]],
     ["버림받은 인간 셋", "동료", "assets/characters/anime-v4/11-abandoned-human-trio-anime-v4.jpg", "붉은 번개 주술사, 단검 요원, 도끼 전사. 연합의 명령보다 사람을 살리는 선택을 한 탈주자들.", ["실험 생존자", "전직 요원", "탈주 군인"]],
@@ -44,7 +44,7 @@
     ["단검 사용자", "동료", "assets/characters/important/14-dagger-operative.jpg", "민간인 학살 명령을 거부한 전직 정보 요원. 투척 궤도, 함정 해제와 기록 탈취에 능하다.", ["단검", "정보 요원"]],
     ["도끼 전사", "동료", "assets/characters/important/15-axe-deserter.jpg", "괴물 아이를 죽이라는 명령을 거부한 전직 군인. 인간 군대의 사고방식과 약점을 안다.", ["큰 도끼", "탈주 군인"]],
     ["어인족 지도자", "동맹", "assets/characters/important/16-merfolk-leader.jpg", "심해의 낙하 지점과 바다 생태를 지키며 최종전에서 해군의 보급과 수송로를 차단한다.", ["심해", "수로 대피"]],
-    ["하피족 지도자", "동맹", "assets/characters/important/17-harpy-leader.jpg", "고산 기류와 별의 낙하를 읽는다. 공중 정찰과 민간인 대피로 하늘의 전선을 바꾼다.", ["관측", "공중 구조"]],
+    ["하피족 지도자", "동맹", "assets/characters/important/17-harpy-leader.jpg", "06 수염수리 산맥족장. 강한 장병기와 넓은 날개로 공중전을 지휘하고 고산 기류와 별의 낙하를 읽는다.", ["산맥족장", "공중전", "공중 구조"]],
     ["엘프 중립국 치료사", "동맹", "assets/characters/important/18-elf-neutral-healer.jpg", "어느 군대에도 합류하지 않지만 모든 종족의 피난과 치료를 보장하는 중립의 상징.", ["식물", "치료", "중립국"]]
   ];
 
