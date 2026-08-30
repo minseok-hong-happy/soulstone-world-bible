@@ -51,6 +51,8 @@
 
 ![거미인간과 곤충연합](08-spiderfolk-insect-alliance-anime-v4.png)
 
+여성 거미인간 대장의 정본은 신규 후보 10안 가운데 사용자 선택 후 갱신한다.
+
 ### 9. 오크 검성 호위무사
 
 ![오크 검성 호위무사](09-orc-sword-saint-anime-v4.png)
@@ -84,6 +86,8 @@
 - [추가 중요 인물 18명](../important-characters-v1/README.md)
 - [어인족 지도자 후보 10안과 선택 결과](../merfolk-candidates-v1/README.md)
 - [화강암 골렘 신규 후보 10안과 선택 결과](../golem-granite-candidates-v3/README.md)
+- [하피족 지도자 신규 후보 10안](../harpy-candidates-v1/README.md)
+- [여성 거미인간 대장 신규 후보 10안](../spiderwoman-candidates-v1/README.md)
 - [폐기된 화강암 골렘 후보 3안](../golem-granite-candidates-v2/README.md)
 - [시즌 1 전 60화 대표 이미지](../../episode-keyframes/season-01/README.md)
 - [이미지 제작 지침과 재현 프롬프트](../ART-DIRECTION-AND-PROMPTS.md)

@@ -79,7 +79,7 @@ copied reference characters, logos, watermarks or text.
 7. `anime-v2/07-golem-leader-anime-v2.png`
    - 기계 장치와 룬이 없는 자연 광물 생명, 이마의 황금 소울스톤, 몸의 바위를 방벽과 다리로 만들어 피난민을 도움.
 8. `anime-v2/08-spiderfolk-insect-alliance-anime-v2.png`
-   - 비성애화된 중성적 거미인간 대표, 두 팔과 네 개의 기능성 거미 다리, 극세 실 통신망, 배경에 독립된 딱정벌레·벌·사마귀·나방 종족.
+   - 실전적인 복장의 여성 거미인간 대표, 일반적인 두 팔·두 다리와 등에서 돋은 네 개의 기능성 보조 거미다리, 극세 실 통신망, 배경에 독립된 딱정벌레·벌·사마귀·나방 종족.
 9. `anime-v2/09-orc-sword-saint-anime-v2.png`
    - 중갑의 큰 오크 검성, 정밀한 양손검 자세, 난민을 뒤에 두고 호위. 능력 미정이므로 마법 효과 없음.
 10. `anime-v2/10-half-dragon-companion-anime-v2.png`
