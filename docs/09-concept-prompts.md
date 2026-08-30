@@ -115,7 +115,12 @@
 9. **두루미 하늘치유사** — 흑백 날개, 녹백색 치료복과 의료 가방, 비행 구조와 야전 치료 담당.
 10. **매 부족장** — 갈색·크림색 날개, 청록·적갈색 전투복과 바람 월도, 온기와 권위를 절충한 균형형 지도자.
 
-원본 PNG는 `assets/concept-art/harpy-candidates-v1/`, 공개용 JPG는 `site/assets/concepts/harpy-v1/`에 저장했다. 내장 이미지 생성 기능을 후보별로 한 번씩 사용했으며 현재 정본은 변경하지 않았다.
+원본 PNG는 `assets/concept-art/harpy-candidates-v1/`, 공개용 JPG는 `site/assets/concepts/harpy-v1/`에 저장했다. 내장 이미지 생성 기능을 후보별로 한 번씩 사용했고, 선택 전까지 정본을 유지한 뒤 최종 선택본만 반영했다.
+
+### 하피족 최종 선택
+
+- 사용자가 **06 수염수리 산맥족장**을 최종 선택했다.
+- 선택본을 `assets/concept-art/important-characters-v1/17-harpy-leader.png`와 `site/assets/characters/important/17-harpy-leader.jpg`의 정본 경로에 반영했다.
 
 ## 여성 거미인간 대장 후보 10안
 
@@ -138,4 +143,9 @@
 9. **백색동굴거미 청망자** — 반투명 상아색 보조다리, 동굴 전체로 퍼지는 미세 감각실.
 10. **보랏빛 거미여왕** — 자흑색 보조다리와 지휘복, 실 지휘봉과 조직적인 대형 통신망.
 
-원본 PNG는 `assets/concept-art/spiderwoman-candidates-v1/`, 공개용 JPG는 `site/assets/concepts/spiderwoman-v1/`에 저장했다. 내장 이미지 생성 기능을 후보별로 한 번씩 사용했으며 현재 정본은 변경하지 않았다.
+원본 PNG는 `assets/concept-art/spiderwoman-candidates-v1/`, 공개용 JPG는 `site/assets/concepts/spiderwoman-v1/`에 저장했다. 내장 이미지 생성 기능을 후보별로 한 번씩 사용했고, 선택 전까지 정본을 유지한 뒤 최종 선택본만 반영했다.
+
+### 여성 거미인간 최종 선택
+
+- 사용자가 **09 백색동굴거미 청망자**를 최종 선택했다.
+- 선택본을 `assets/concept-art/anime-v4/08-spiderfolk-insect-alliance-anime-v4.png`와 `site/assets/characters/anime-v4/08-spiderfolk-insect-alliance-anime-v4.jpg`의 정본 경로에 반영했다.

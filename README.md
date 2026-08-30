@@ -6,7 +6,7 @@
 
 - [소울스톤 세계관·인물·60화 웹툰 보기](https://minseok-hong-happy.github.io/soulstone-world-bible/)
 - [완결형 소설 읽기](https://minseok-hong-happy.github.io/soulstone-world-bible/novel.html)
-- [골렘·어인 최종 디자인 / 하피·거미인간 후보 비교](https://minseok-hong-happy.github.io/soulstone-world-bible/concepts.html)
+- [골렘·어인·하피·거미인간 최종 디자인과 후보 아카이브](https://minseok-hong-happy.github.io/soulstone-world-bible/concepts.html)
 
 ## 문서
 
