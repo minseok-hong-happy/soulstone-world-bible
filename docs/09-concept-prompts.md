@@ -59,6 +59,12 @@
 - **10 균형형 공동체장**: 세 장의 자연 석판 몸통, 긴 다리와 중간 크기 팔, 네 개의 짧은 등 능선을 조합한 정본 지향형.
 - 원본 PNG는 `assets/concept-art/golem-granite-candidates-v3/`, 웹용 JPG는 `site/assets/concepts/golem-granite-v3/`에 저장했다. 내장 이미지 생성 기능을 후보별로 한 번씩 사용했다.
 
+## 골렘 대장 최종 선택
+
+- 사용자가 신규 후보 **03 강돌 수호자**를 최종 선택했다.
+- 선택본은 물에 닳은 둥근 회색 화강암 덩어리, 온화하게 열린 눈, 다문 입, 이마의 황금 소울스톤과 얇은 금빛 균열을 정본 특징으로 삼는다.
+- 원본을 `assets/concept-art/anime-v4/07-golem-leader-anime-v4.png`, 웹용 파일을 `site/assets/characters/anime-v4/07-golem-leader-anime-v4.jpg` 정본 경로에 반영했다.
+
 ## 어인족 지도자 후보 공통 기준
 
 - 사용자 첨부 이미지: 푸른 피부, 눈가 비늘, 지느러미 귀, 물결 같은 머리카락과 해양 장신구의 종족 기준.
