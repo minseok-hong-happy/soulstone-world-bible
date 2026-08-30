@@ -45,7 +45,7 @@
 
 ![골렘 대장](07-golem-leader-anime-v4.png)
 
-기존 5번 사암 수도자 정본. 현재는 사용자의 최신 피드백에 따라 느끼한 미소를 제거한 화강암 후보 3안을 검토 중이며, 번호가 확정되기 전까지 이 파일을 보존한다.
+기존 5번 사암 수도자 정본. 화강암 후보 3안은 사용자 검토에서 폐기됐고, 현재는 돌 결합 방식과 실루엣을 분리한 신규 10안을 검토 중이다. 번호가 확정되기 전까지 이 파일을 보존한다.
 
 ### 8. 거미인간과 곤충연합
 
@@ -83,6 +83,7 @@
 
 - [추가 중요 인물 18명](../important-characters-v1/README.md)
 - [어인족 지도자 후보 10안과 선택 결과](../merfolk-candidates-v1/README.md)
-- [화강암 골렘 재수정 후보 3안](../golem-granite-candidates-v2/README.md)
+- [화강암 골렘 신규 후보 10안](../golem-granite-candidates-v3/README.md)
+- [폐기된 화강암 골렘 후보 3안](../golem-granite-candidates-v2/README.md)
 - [시즌 1 전 60화 대표 이미지](../../episode-keyframes/season-01/README.md)
 - [이미지 제작 지침과 재현 프롬프트](../ART-DIRECTION-AND-PROMPTS.md)

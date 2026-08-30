@@ -6,7 +6,7 @@
 
 - [소울스톤 세계관·인물·60화 웹툰 보기](https://minseok-hong-happy.github.io/soulstone-world-bible/)
 - [완결형 소설 읽기](https://minseok-hong-happy.github.io/soulstone-world-bible/novel.html)
-- [어인족 최종안·화강암 골렘 후보 3안](https://minseok-hong-happy.github.io/soulstone-world-bible/concepts.html)
+- [어인족 최종안·화강암 골렘 신규 후보 10안](https://minseok-hong-happy.github.io/soulstone-world-bible/concepts.html)
 
 ## 문서
 
