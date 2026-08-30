@@ -80,11 +80,16 @@
 
 ![하피족 지도자](17-harpy-leader.png)
 
+신규 후보 10안에서 최종 외형을 선택한 뒤 정본 이미지를 갱신한다.
+
 ### 18. 엘프 중립국의 치유사
 
 ![엘프 치유사](18-elf-neutral-healer.png)
 
 ## 관련 자료
+
+- [하피족 지도자 후보 10안](../harpy-candidates-v1/README.md)
+- [여성 거미인간 대장 후보 10안](../spiderwoman-candidates-v1/README.md)
 
 - [`anime-v4` 통일 캐릭터 갤러리](../anime-v4/README.md)
 - [시즌 1 전 60화 대표 이미지](../../episode-keyframes/season-01/README.md)
