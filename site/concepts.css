@@ -26,6 +26,7 @@ main, footer { width:min(calc(100% - 3rem),1180px); margin:0 auto; }
 .candidate-head p { grid-column:1/-1; margin-bottom:-1rem; }
 .candidate-head > span { color:var(--muted); line-height:1.75; }
 .candidate-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:1.25rem; }
+.candidate-grid--three { grid-template-columns:repeat(3,1fr); }
 .candidate { overflow:hidden; border:1px solid var(--line); border-radius:1rem; background:var(--panel); text-decoration:none; transition:transform .2s ease,border-color .2s ease; }
 .candidate:hover,.candidate:focus-visible { transform:translateY(-4px); border-color:rgba(134,220,255,.7); }
 .candidate img { display:block; width:100%; aspect-ratio:2/3; object-fit:cover; object-position:top center; background:#101828; }
@@ -36,5 +37,6 @@ main, footer { width:min(calc(100% - 3rem),1180px); margin:0 auto; }
 .candidate small { color:var(--muted); font-size:.72rem; }
 footer { padding:2rem 0 4rem; border-top:1px solid var(--line); }
 footer a { color:var(--muted); font-size:.8rem; font-weight:750; }
-@media(max-width:700px){ main,footer{width:min(calc(100% - 1.5rem),1180px)} .concept-intro{grid-template-columns:1fr;gap:1.5rem;padding:5rem 0 3rem}.concept-intro>p{grid-column:auto}.selected-design,.candidate-head,.candidate-grid{grid-template-columns:1fr}.selected-design>a{min-height:0}.candidate-head p{grid-column:auto;margin-bottom:0}.candidate-section{padding-top:5rem}.concept-header nav a:first-child{display:none} }
+@media(max-width:900px){.candidate-grid--three{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:700px){ main,footer{width:min(calc(100% - 1.5rem),1180px)} .concept-intro{grid-template-columns:1fr;gap:1.5rem;padding:5rem 0 3rem}.concept-intro>p{grid-column:auto}.selected-design,.candidate-head,.candidate-grid,.candidate-grid--three{grid-template-columns:1fr}.selected-design>a{min-height:0}.candidate-head p{grid-column:auto;margin-bottom:0}.candidate-section{padding-top:5rem}.concept-header nav a:first-child{display:none} }
 @media(prefers-reduced-motion:reduce){.candidate{transition:none}}
