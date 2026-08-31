@@ -4,10 +4,12 @@
 
 ## 웹 아카이브
 
-- [소울스톤 세계관·인물·60화 웹툰 보기](https://minseok-hong-happy.github.io/soulstone-world-bible/)
-- [완결형 소설 읽기](https://minseok-hong-happy.github.io/soulstone-world-bible/novel.html)
-- [골렘·어인·하피·거미인간 최종 디자인과 후보 아카이브](https://minseok-hong-happy.github.io/soulstone-world-bible/concepts.html)
-- [인간 연합 성·4대장 최종 디자인과 후보 아카이브](https://minseok-hong-happy.github.io/soulstone-world-bible/candidates.html)
+- [시작 화면](https://minseok-hong-happy.github.io/soulstone-world-bible/)
+- [완결형 소설](https://minseok-hong-happy.github.io/soulstone-world-bible/novel.html)
+- [정본 세계관](https://minseok-hong-happy.github.io/soulstone-world-bible/world.html)
+- [정본 캐릭터 갤러리](https://minseok-hong-happy.github.io/soulstone-world-bible/characters.html)
+- [시즌 1 전 60화 목록](https://minseok-hong-happy.github.io/soulstone-world-bible/episodes.html)
+- [세로 스크롤 웹툰](https://minseok-hong-happy.github.io/soulstone-world-bible/webtoon.html?ep=1)
 
 ## 문서
 

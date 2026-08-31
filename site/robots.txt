@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://minseok-hong-happy.github.io/soulstone-world-bible/sitemap.xml
