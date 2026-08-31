@@ -7,6 +7,7 @@
 - [소울스톤 세계관·인물·60화 웹툰 보기](https://minseok-hong-happy.github.io/soulstone-world-bible/)
 - [완결형 소설 읽기](https://minseok-hong-happy.github.io/soulstone-world-bible/novel.html)
 - [골렘·어인·하피·거미인간 최종 디자인과 후보 아카이브](https://minseok-hong-happy.github.io/soulstone-world-bible/concepts.html)
+- [인간 연합 성·4대장 디자인 후보 50종](https://minseok-hong-happy.github.io/soulstone-world-bible/candidates.html)
 
 ## 문서
 
@@ -20,6 +21,7 @@
 - [소울스톤 소설판](docs/07-novel.md)
 - [이번 개편 5회 검토 기록](docs/08-five-pass-review.md)
 - [골렘·어인·하피·거미인간 콘셉트 생성 프롬프트](docs/09-concept-prompts.md)
+- [성·4대장 후보 생성 프롬프트](docs/10-castle-commander-candidate-prompts.md)
 - [콘셉트 아트 안내](assets/concept-art/README.md)
 - [통일 캐릭터 콘셉트 아트 `anime-v4`](assets/concept-art/anime-v4/README.md)
 - [추가 중요 인물 콘셉트 아트](assets/concept-art/important-characters-v1/README.md)

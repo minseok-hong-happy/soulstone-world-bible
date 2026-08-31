@@ -101,6 +101,7 @@
 
 - [`anime-v4` 통일 캐릭터 시안](anime-v4/README.md)
 - [추가 중요 인물 18명](important-characters-v1/README.md)
+- [인간 연합 성·4대장 후보 50종](selection-v1/README.md)
 - [시즌 1 전 60화 대표 이미지](../episode-keyframes/season-01/README.md)
 
 ## 제작 기록
