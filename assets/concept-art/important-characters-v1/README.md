@@ -34,17 +34,25 @@
 
 ![육군 대장](07-army-commander-sand.png)
 
+사용자가 선택한 **09 적갈색 수염 장군 수정안** 정본. 찌르기용 장창날과 좌우 베기 날이 분명한 폴암의 머리 전체가 모래색 유물 소울스톤이다.
+
 ### 8. 바람의 공군 대장
 
 ![공군 대장](08-air-commander-wind.png)
+
+사용자가 선택한 **10 바람 에이스 수정안** 정본. 부채의 살과 판 전체가 옅은 청록색 소울스톤인 한 자루의 대형 전투 부채로 압축 풍압을 모으고 펼친다.
 
 ### 9. 강철의 해군 대장
 
 ![해군 대장](09-navy-commander-steel.png)
 
+사용자가 선택한 **06 백발 대검 베테랑** 정본.
+
 ### 10. 빛의 수비 대장
 
 ![수비 대장](10-defense-commander-light.png)
+
+사용자가 선택한 **01 은발 광휘 대검기사** 정본.
 
 ### 11. 분열 칼날의 육군 1번대 중장
 
@@ -90,6 +98,7 @@
 
 - [하피족 지도자 후보 10안](../harpy-candidates-v1/README.md)
 - [여성 거미인간 대장 후보 10안](../spiderwoman-candidates-v1/README.md)
+- [인간 연합 성·4대장 후보와 선택안](../selection-v1/README.md)
 
 - [`anime-v4` 통일 캐릭터 갤러리](../anime-v4/README.md)
 - [시즌 1 전 60화 대표 이미지](../../episode-keyframes/season-01/README.md)

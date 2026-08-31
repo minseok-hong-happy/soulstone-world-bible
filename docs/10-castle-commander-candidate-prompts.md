@@ -50,3 +50,13 @@
 > Original top-ranked human defense commander, full-body anime character concept. Massive armored knight, warm white-gold forehead Soulstone, light power and overwhelming physical strength. Must look like an unmovable human fortress rather than a generic holy knight. Casual modern 2D TV-anime line art and cel shading, no text or logo.
 
 변형: 은발 대검 / 흑발 방패와 망치 / 백발 광권 여성 / 금발 성채방패 / 적갈색 광창 여성 / 태양 망치 / 흑발 거검 여성 / 은장발 중창 / 쌍원방패 여성 / 성문방패 베테랑.
+
+## 최종 선택과 수정
+
+- 중앙성: 03 칠각 일곱 구역 수도.
+- 육군 대장: 09 적갈색 수염 장군. 기존의 둔중한 결정 무기 머리만 긴 찌르기 날, 좌우 베기 날과 뒤쪽 갈고리가 분명한 폴암으로 수정했다. 머리 전체는 하나의 거친 모래색 소울스톤이며 인물과 배경은 유지했다.
+- 공군 대장: 10 바람 에이스. 양손의 바람구체를 제거하고, 살과 넓은 판 전체가 옅은 청록색 결정인 한 자루의 소울스톤 전투 부채를 추가했다. 인물과 공중 구도, 주변 바람의 흐름은 유지했다.
+- 해군 대장: 06 백발 대검 베테랑.
+- 수비 대장: 01 은발 광휘 대검기사.
+
+수정본도 OpenAI 내장 이미지 편집 모드로 제작했다. 정본 원본은 `important-characters-v1`, 성 정본은 `important-locations-v1`에 반영했다.
