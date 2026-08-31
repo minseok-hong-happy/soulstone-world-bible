@@ -35,7 +35,7 @@
     var strips = data.strips.map(function (strip, index) {
       return '<figure class="strip" id="strip-' + (index + 1) + '"><img src="' + imagePath(strip.image) + '" alt="' + strip.alt + '"' + (index === 0 ? ' fetchpriority="high"' : ' loading="lazy"') + '>' + strip.bubbles.map(bubbleMarkup).join("") + '</figure>';
     }).join("");
-    root.innerHTML = '<article class="reader"><header class="episode-head"><small>EPISODE ' + String(number).padStart(2, "0") + '</small><h1>' + data.title + '</h1><p>' + data.subtitle + '</p></header>' + strips + '<footer class="episode-end"><strong>' + number + '화 끝</strong><nav class="episode-nav">' + previous + '<a href="archive.html#episodes">60화 목록</a>' + next + '</nav></footer></article>';
+    root.innerHTML = '<article class="reader"><header class="episode-head"><small>EPISODE ' + String(number).padStart(2, "0") + '</small><h1>' + data.title + '</h1><p>' + data.subtitle + '</p></header>' + strips + '<footer class="episode-end"><strong>' + number + '화 끝</strong><nav class="episode-nav">' + previous + '<a href="episodes.html">60화 목록</a>' + next + '</nav></footer></article>';
     renderSelect();
     scrollTo({ top: 0, behavior: "auto" });
   }
