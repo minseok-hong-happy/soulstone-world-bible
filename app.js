@@ -35,7 +35,7 @@
     ["2대 국가원수", "인간연합", "assets/characters/important/05-second-marshal-dragon-relic.jpg", "용의 유물 소울스톤을 사용하는 전대 원수. 최종전에서 1대 원수와 서로의 시대를 끝낸다.", ["용의 유물", "2대 원수"]],
     ["3대 국가원수", "인간연합", "assets/characters/important/06-third-marshal-telekinesis.jpg", "감정 표현이 거의 없는 염동력 사용자. 주인공에게 패배한 뒤 살아서 전군 정전을 명령한다.", ["밀기와 당기기", "무채색 회색", "정전"]],
     ["모래의 육군 대장", "인간연합", "assets/characters/important/07-army-commander-sand.jpg", "주인공의 부모를 죽이고 형을 병기로 훈련시킨 인물. 네 대장 중 유일하게 최종전에서 죽는다.", ["모래 병사", "폴암", "가족의 원수"]],
-    ["바람의 공군 대장", "인간연합", "assets/characters/important/08-air-commander-wind.jpg", "압축 풍압과 광역 절단을 쓰는 공중전 지휘관. 늑대인간과 하피족에게 패배한다.", ["바람", "공중 기동"]],
+    ["바람의 공군 대장", "인간연합", "assets/characters/important/08-air-commander-wind.jpg", "청록색 소울스톤 전투 부채로 압축 풍압과 광역 절단을 쓰는 공중전 지휘관. 늑대인간과 하피족에게 패배한다.", ["바람", "소울스톤 부채", "공중 기동"]],
     ["강철의 해군 대장", "인간연합", "assets/characters/important/09-navy-commander-steel.jpg", "강철을 녹이고 굳혀 파도와 창, 장갑으로 바꾸는 지휘관. 반인반용과 어인족이 맞선다.", ["강철", "해군"]],
     ["빛의 수비 대장", "인간연합", "assets/characters/important/10-defense-commander-light.jpg", "빛과 압도적인 완력을 쓰는 중갑 기사. 트롤 대장과 수정동굴 공동체가 성문에서 맞선다.", ["빛", "완력", "수비"]],
     ["육군 1번대 중장", "인간연합", "assets/characters/important/11-army-first-vice-admiral-shards.jpg", "거대한 검을 수많은 작은 칼날로 분해하는 여성 지휘관. 단검 사용자의 옛 상관이다.", ["분할 칼날", "여성 지휘관"]],
