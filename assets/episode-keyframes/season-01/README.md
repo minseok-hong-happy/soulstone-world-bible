@@ -106,7 +106,7 @@
 
 | 화 | 대표 이미지 |
 |---|---|
-| 51화. 빙관과 용 | <img src="ep-51-frozen-crown-and-dragon.png" alt="51화 빙관과 용" width="560"> |
+| 51화. 빙관과 업화 | <img src="ep-51-frozen-crown-and-inferno.png" alt="51화 빙관과 업화" width="560"> |
 | 52화. 회색의 원수 | <img src="ep-52-gray-marshal.png" alt="52화 회색의 원수" width="560"> |
 | 53화. 밀어낸 힘 | <img src="ep-53-force-pushed-away.png" alt="53화 밀어낸 힘" width="560"> |
 | 54화. 정전 명령 | <img src="ep-54-ceasefire-order.png" alt="54화 정전 명령" width="560"> |
