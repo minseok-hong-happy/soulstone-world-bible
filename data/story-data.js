@@ -156,11 +156,11 @@ const SOULSTONE_WEBTOON = {
       },
       {
         image: "strips/ep-03/03-secret-capture-order.png",
-        alt: "희귀 혼혈 생포와 소울스톤 독점을 위한 비밀 명령",
+        alt: "내용이 공개되지 않은 장로회의 봉인 명령",
         bubbles: [
-          { type: "whisper danger", side: "left", tail: "right", top: 8, width: 38, text: "공식 목표는 제거다.\n진짜 목표는 따로 있다." },
-          { type: "classified", side: "right", top: 39, width: 46, text: "최우선\n희귀 혼혈 생포\n소울스톤 낙하지점 확보" },
-          { type: "narration", side: "left", top: 74, width: 46, text: "병사들이 받은 명령과\n장로회가 원하는 것은 달랐다." }
+          { type: "whisper danger", side: "left", tail: "right", top: 8, width: 36, text: "이 봉인은 현장에서만 연다." },
+          { type: "classified", side: "right", top: 39, width: 38, text: "장로회 직인\n특급 기밀" },
+          { type: "narration", side: "left", top: 74, width: 44, text: "명령서의 진짜 목적은\n아직 누구에게도 보이지 않았다." }
         ]
       },
       {
