@@ -2,6 +2,9 @@
   "use strict";
   var content = document.querySelector("#novel-content");
   var chapterList = document.querySelector("#chapter-list");
+  var chapterRail = document.querySelector(".chapter-rail");
+  var contentsToggle = document.querySelector("#contents-toggle");
+  var lastCompactMode = null;
 
   function escapeHtml(value) {
     return value.replace(/[&<>"']/g, function (character) {
@@ -9,7 +12,7 @@
     });
   }
 
-  function slug(index) { return "chapter-" + String(index).padStart(2, "0"); }
+  function slug(index) { return "episode-" + String(index).padStart(2, "0"); }
 
   function render(markdown) {
     var blocks = markdown.replace(/\r/g, "").trim().split(/\n\s*\n/);
@@ -33,6 +36,31 @@
       return '<a href="#' + chapter[0] + '">' + escapeHtml(chapter[1]) + "</a>";
     }).join("");
   }
+
+  function syncContentsState() {
+    var compact = window.matchMedia("(max-width: 800px)").matches;
+    if (compact !== lastCompactMode) {
+      chapterRail.classList.toggle("open", !compact);
+      lastCompactMode = compact;
+    }
+    contentsToggle.setAttribute("aria-expanded", String(!compact || chapterRail.classList.contains("open")));
+  }
+
+  contentsToggle.addEventListener("click", function () {
+    if (!window.matchMedia("(max-width: 800px)").matches) return;
+    chapterRail.classList.toggle("open");
+    contentsToggle.setAttribute("aria-expanded", String(chapterRail.classList.contains("open")));
+  });
+
+  chapterList.addEventListener("click", function (event) {
+    if (event.target.closest("a") && window.matchMedia("(max-width: 800px)").matches) {
+      chapterRail.classList.remove("open");
+      contentsToggle.setAttribute("aria-expanded", "false");
+    }
+  });
+
+  window.addEventListener("resize", syncContentsState);
+  syncContentsState();
 
   fetch("novel.md").then(function (response) {
     if (!response.ok) throw new Error("소설 원문을 불러오지 못했습니다.");

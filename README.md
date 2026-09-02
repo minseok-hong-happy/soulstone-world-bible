@@ -5,7 +5,7 @@
 ## 웹 아카이브
 
 - [시작 화면](https://minseok-hong-happy.github.io/soulstone-world-bible/)
-- [완결형 소설](https://minseok-hong-happy.github.io/soulstone-world-bible/novel.html)
+- [웹툰과 동기화된 60화 소설](https://minseok-hong-happy.github.io/soulstone-world-bible/novel.html)
 - [정본 세계관](https://minseok-hong-happy.github.io/soulstone-world-bible/world.html)
 - [정본 캐릭터 갤러리](https://minseok-hong-happy.github.io/soulstone-world-bible/characters.html)
 - [캐릭터 후보 50안과 최종 선택](https://minseok-hong-happy.github.io/soulstone-world-bible/candidates.html)
@@ -21,7 +21,7 @@
 - [세력·지역·전력 구조](docs/04-factions-and-locations.md)
 - [소울스톤 규칙집](docs/05-soulstone-rules.md)
 - [추가 의사결정 항목](docs/06-open-decisions.md)
-- [소울스톤 소설판](docs/07-novel.md)
+- [소울스톤 60화 소설 원문](site/novel.md)
 - [이번 개편 5회 검토 기록](docs/08-five-pass-review.md)
 - [골렘·어인·하피·거미인간 콘셉트 생성 프롬프트](docs/09-concept-prompts.md)
 - [성·4대장 후보 생성 프롬프트](docs/10-castle-commander-candidate-prompts.md)
