@@ -14,7 +14,7 @@
 
   var characters = [
     ["주인공과 늑대", "핵심", "assets/characters/anime-v4/01-protagonist-and-wolf-anime-v4.jpg", "인간과 뱀파이어의 혼혈 소년과 어떤 명령도 없이 스스로 소년을 살린 거대한 자연 늑대.", ["피와 얼음", "은백색 머리", "공존"]],
-    ["첫째 형", "핵심", "assets/characters/anime-v4/02-older-brother-adaptive-evolution-anime-v4.jpg", "어릴 때 납치되어 장로회의 실험 병기와 비밀 4대 원수 후보로 성장한 주인공의 거울.", ["적응 진화", "회색 머리", "왜곡된 기억"]],
+    ["첫째 형 · 외형 재선정 중", "핵심", "assets/candidates-v2/older-brother/older-brother-01-silver-cropped-general.jpg", "어릴 때 납치되어 장로회의 실험 병기와 비밀 4대 원수 후보로 성장한 주인공의 거울. 현재 외형 후보 10안을 비교 중이다.", ["적응 진화", "흰색·회색 머리", "후보 미확정"]],
     ["1대 국가원수", "핵심", "assets/characters/anime-v4/03-first-marshal-lord-of-frozen-crown-anime-v4.jpg", "주인공의 외할아버지. 얼음을 검술의 보조로만 사용하는 세계 최고의 검객이자 인간 통일의 책임자.", ["빙관의 군주", "검술", "속죄"]],
     ["비극 전의 가족", "핵심", "assets/characters/anime-v4/04-family-before-tragedy-anime-v4.jpg", "인간 어머니와 뱀파이어 아버지, 두 아들, 늑대가 함께했던 짧고 소중한 일상.", ["혼혈 가족", "가족사진", "마지막 밤"]],
     ["반인반수 지도부", "동맹", "assets/characters/anime-v4/05-beastfolk-leaders-anime-v4.jpg", "늑대인간이 유일한 최종 지도자이며 사자인간은 전투와 외교를 맡는 정식 2인자다.", ["늑대인간", "사자인간", "야수와 바람"]],
@@ -22,20 +22,20 @@
     ["골렘 대장", "동료", "assets/characters/anime-v4/07-golem-leader-anime-v4.jpg", "기계가 아닌 자연의 화강암 생명. 전투보다 방벽과 교량, 터널과 피난로를 만드는 데 강하다.", ["자연 골렘", "구조", "금빛 생명선"]],
     ["거미인간 대장", "동료", "assets/characters/anime-v4/08-spiderfolk-insect-alliance-anime-v4.jpg", "감각실의 진동으로 먼 움직임과 안전한 길을 읽는 여성 곤충연합 지도자.", ["감각실", "진동 감지", "곤충연합"]],
     ["오크 검성", "동료", "assets/characters/anime-v4/09-orc-sword-saint-anime-v4.jpg", "움직이는 방벽 같은 체격과 달리 최소 동작과 정확한 거리로 주인공을 지키는 호위무사.", ["호위", "대검", "절대 거리"]],
-    ["반인반용", "동료", "assets/characters/anime-v4/10-half-dragon-companion-anime-v4.jpg", "인간과 용 어느 쪽의 인정도 목표로 삼지 않는 혼혈 동료. 주인공이 자신의 혈통을 받아들이게 한다.", ["용의 혈통", "혼혈", "해군 대장전"]],
+    ["용족 동료", "동료", "assets/characters/anime-v4/10-dragon-companion-anime-v4.jpg", "인간형으로 여행하는 순수 용족. 종족의 중립이 방관이 되었는지 확인하기 위해 고향을 떠난다.", ["순수 용족", "인간형 변신", "해군 대장전"]],
     ["흑영대", "동맹", "assets/characters/anime-v4/13-shadow-unit-anime-v4.jpg", "인간과 괴물이 함께 구성한 그림자 특수부대. 암살보다 첩보, 구조와 피난로 확보가 우선이다.", ["그림자", "침투", "구조"]],
     ["살아 있는 성", "최종위기", "assets/characters/anime-v4/15-living-castle-final-battle-anime-v4.jpg", "50년간 모은 영혼과 성의 인공 기관에서 강제로 태어난 새 생명. 악당이 아니라 마지막 희생자다.", ["성생체", "수많은 영혼", "마지막 희생자"]],
     ["12세 주인공", "핵심", "assets/characters/important/01-protagonist-age-12.jpg", "가족의 품 안에서 피와 얼음을 서툴게 익히던 소년. 동굴 학살이 그의 시간을 갈라놓는다.", ["12세", "피와 얼음"]],
     ["성장한 주인공", "핵심", "assets/characters/important/02-protagonist-age-18.jpg", "복수의 군주가 아니라 사람을 살리는 연합의 중심으로 성장한 주인공의 최종전 모습.", ["18세", "쌍검", "늑대 기승"]],
     ["뱀파이어 아버지", "핵심", "assets/characters/important/03-vampire-father.jpg", "복수를 억누르고 가족과 공동체를 지키기 위해 은신을 선택한 피 단일 속성의 지도자.", ["피", "공동체", "절제"]],
     ["얼음의 어머니", "핵심", "assets/characters/important/04-ice-mother.jpg", "강한 얼음 사용자. 자신의 생명으로 아들이 도망칠 시간을 만들며 숨겨진 혈통은 후반에 드러난다.", ["얼음", "가족", "희생"]],
-    ["2대 국가원수", "인간연합", "assets/characters/important/05-second-marshal-dragon-relic.jpg", "용의 유물 소울스톤을 사용하는 전대 원수. 최종전에서 1대 원수와 서로의 시대를 끝낸다.", ["용의 유물", "2대 원수"]],
-    ["3대 국가원수", "인간연합", "assets/characters/important/06-third-marshal-telekinesis.jpg", "감정 표현이 거의 없는 염동력 사용자. 주인공에게 패배한 뒤 살아서 전군 정전을 명령한다.", ["염동력", "무채색 회색", "정전"]],
+    ["2대 국가원수 · 외형 재선정 중", "인간연합", "assets/candidates-v2/second-marshal/second-marshal-01-ember-haori.jpg", "타고난 불을 한 자루의 칼과 보법에 압축하는 세계 최상위 검술가. 현재 외형 후보 10안을 비교 중이다.", ["불 소울스톤", "검술", "후보 미확정"]],
+    ["3대 국가원수 · 외형 재선정 중", "인간연합", "assets/candidates-v2/third-marshal/third-marshal-01-silver-center-part.jpg", "감정 표현이 거의 없는 염동력 사용자. 주인공에게 패배한 뒤 살아서 전군 정전을 명령한다. 현재 외형 후보 10안을 비교 중이다.", ["염동력", "무채색 회색", "후보 미확정"]],
     ["모래의 육군 대장", "인간연합", "assets/characters/important/07-army-commander-sand.jpg", "주인공의 부모를 죽이고 형을 병기로 훈련시킨 적갈색 수염의 장군. 유물 폴암을 사용한다.", ["모래 병사", "소울스톤 폴암", "가족의 원수"]],
     ["바람의 공군 대장", "인간연합", "assets/characters/important/08-air-commander-wind.jpg", "청록색 소울스톤 전투 부채로 압축 풍압과 광역 절단을 쓰는 공중전 지휘관.", ["바람", "소울스톤 부채", "공중 기동"]],
-    ["강철의 해군 대장", "인간연합", "assets/characters/important/09-navy-commander-steel.jpg", "강철을 녹이고 굳혀 파도와 대검, 창과 장갑으로 바꾸는 백발의 베테랑 지휘관.", ["강철", "대검", "해군"]],
+    ["강철의 해군 대장 · 외형 재선정 중", "인간연합", "assets/candidates-v2/navy-commander/navy-commander-01-black-haired-young-admiral.jpg", "강철을 녹이고 굳혀 파도와 무기, 창과 장갑으로 바꾸는 해군 최고 지휘관. 현재 외형과 주무기 후보 10안을 비교 중이다.", ["강철", "해군", "후보 미확정"]],
     ["빛의 수비 대장", "인간연합", "assets/characters/important/10-defense-commander-light.jpg", "빛과 압도적인 완력을 쓰는 은발의 중갑 대검기사. 트롤 대장과 성문에서 맞선다.", ["빛", "대검", "수비"]],
-    ["육군 1번대 중장", "인간연합", "assets/characters/important/11-army-first-vice-admiral-shards.jpg", "거대한 검을 수많은 작은 칼날로 분해하는 여성 지휘관. 단검 사용자의 옛 상관이다.", ["분할 칼날", "여성 지휘관"]],
+    ["육군 1번대 중장 · 외형 재선정 중", "인간연합", "assets/candidates-v2/army-first-lieutenant/army-first-lieutenant-01-violet-ponytail-ace.jpg", "한 자루의 거대한 검을 수많은 작은 칼날로 분해하는 여성 지휘관. 현재 외형 후보 10안을 비교 중이다.", ["분할 칼날", "여성 지휘관", "후보 미확정"]],
     ["일곱 가문 장로회", "인간연합", "assets/characters/important/12-elder-council.jpg", "소울스톤 독점과 괴물 절멸, 돌연변이 실험과 성생체 계획을 주도한 최종 적대 세력.", ["일곱 가문", "독점", "최종 적"]],
     ["붉은 번개 주술사", "동료", "assets/characters/important/13-red-lightning-shaman.jpg", "연합의 실험 생존자. 강한 출력을 쓸수록 신경과 감각에 고통이 남는다.", ["붉은 번개", "실험 생존자"]],
     ["단검 사용자", "동료", "assets/characters/important/14-dagger-operative.jpg", "민간인 학살 명령을 거부한 전직 정보 요원. 투척 궤도와 기록 탈취에 능하다.", ["단검", "정보 요원"]],
@@ -135,9 +135,9 @@
     characterGrid.addEventListener("click", function (event) { var card = event.target.closest("[data-index]"); if (card) openCharacter(Number(card.dataset.index)); });
     characterGrid.addEventListener("keydown", function (event) { var card = event.target.closest("[data-index]"); if (card && (event.key === "Enter" || event.key === " ")) { event.preventDefault(); openCharacter(Number(card.dataset.index)); } });
   }
-  var closeButton = document.querySelector(".dialog-close");
-  if (closeButton) closeButton.addEventListener("click", function () { document.querySelector("#character-dialog").close(); });
   var dialog = document.querySelector("#character-dialog");
+  var closeButton = dialog && dialog.querySelector(".dialog-close");
+  if (closeButton) closeButton.addEventListener("click", function () { dialog.close(); });
   if (dialog) dialog.addEventListener("click", function (event) { if (event.target === event.currentTarget) event.currentTarget.close(); });
 
   var arcFilters = document.querySelector("#arc-filters");

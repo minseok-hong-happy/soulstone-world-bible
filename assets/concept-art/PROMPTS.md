@@ -1,5 +1,7 @@
 # 콘셉트 아트 프롬프트 기록
 
+> 이 문서는 제작 이력을 보존하는 기록이다. `half-dragon` 파일명과 혼혈 설명은 폐기된 과거 시안을 가리키며, 현재 정본은 인간형으로 여행하는 순수 용족이다. 2대 국가원수 역시 용 유물이 아니라 불 속성 소울스톤과 한 자루의 칼을 사용한다.
+
 ## 3차 공통 스타일 기준
 
 ```text
@@ -83,7 +85,7 @@ copied reference characters, logos, watermarks or text.
 9. `anime-v2/09-orc-sword-saint-anime-v2.png`
    - 중갑의 큰 오크 검성, 정밀한 양손검 자세, 난민을 뒤에 두고 호위. 능력 미정이므로 마법 효과 없음.
 10. `anime-v2/10-half-dragon-companion-anime-v2.png`
-    - 자신의 혈통을 긍정하는 중성적 반인반용, 절제된 비늘과 한 쌍의 날개, 능력 미정이므로 특정 원소 공격 없음.
+    - 폐기된 혼혈 설정으로 만든 과거 시안. 현재는 인간형 순수 용족의 임시 외형 참고로만 남긴다.
 11. `anime-v2/11-abandoned-human-trio-anime-v2.png`
     - 고통스러운 붉은 번개 주술사, 실전형 여성 단검 사용자, 아이를 지키는 도끼 전사. 폐쇄된 수용소와 해방된 사람들.
 12. `anime-v2/12-human-alliance-command-anime-v2.png`

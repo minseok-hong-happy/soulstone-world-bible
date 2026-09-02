@@ -8,6 +8,7 @@
 - [완결형 소설](https://minseok-hong-happy.github.io/soulstone-world-bible/novel.html)
 - [정본 세계관](https://minseok-hong-happy.github.io/soulstone-world-bible/world.html)
 - [정본 캐릭터 갤러리](https://minseok-hong-happy.github.io/soulstone-world-bible/characters.html)
+- [신규 캐릭터 후보 50안](https://minseok-hong-happy.github.io/soulstone-world-bible/candidates.html)
 - [시즌 1 전 60화 목록](https://minseok-hong-happy.github.io/soulstone-world-bible/episodes.html)
 - [세로 스크롤 웹툰](https://minseok-hong-happy.github.io/soulstone-world-bible/webtoon.html?ep=1)
 
@@ -24,6 +25,7 @@
 - [이번 개편 5회 검토 기록](docs/08-five-pass-review.md)
 - [골렘·어인·하피·거미인간 콘셉트 생성 프롬프트](docs/09-concept-prompts.md)
 - [성·4대장 후보 생성 프롬프트](docs/10-castle-commander-candidate-prompts.md)
+- [2대·3대 원수·중장·형·해군 대장 후보 생성 프롬프트](docs/11-new-character-candidate-prompts.md)
 - [콘셉트 아트 안내](assets/concept-art/README.md)
 - [통일 캐릭터 콘셉트 아트 `anime-v4`](assets/concept-art/anime-v4/README.md)
 - [추가 중요 인물 콘셉트 아트](assets/concept-art/important-characters-v1/README.md)
