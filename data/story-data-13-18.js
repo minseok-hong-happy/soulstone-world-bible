@@ -1,7 +1,7 @@
 const SOULSTONE_ARC_2A = {
   "13": {
     "title":"진짜 지도자","subtitle":"힘이 아니라 무엇을 위해 싸우는지를 묻는 늑대인간",
-    "refs":["assets/concept-art/anime-v4/01-protagonist-and-wolf-anime-v4.png","assets/concept-art/anime-v4/05-beastfolk-leaders-anime-v4.png","assets/episode-keyframes/season-01/ep-13-true-leader.png"],
+    "refs":["assets/characters/anime-v4/01-protagonist-and-wolf-anime-v4.jpg","assets/characters/anime-v4/05-beastfolk-leaders-anime-v4.jpg","assets/keyframes/ep-13.jpg"],
     "characterNotes":"The 15-year-old silver-haired protagonist, huge natural gray wolf, handsome gray-white wolfman leader and handsome golden lion second-in-command must match references. Beastfolk are humanlike with clear animal traits, never mascot-furry.",
     "strips":[
       {"image":"strips/ep-13/01-only-one-leader.png","alt":"늑대인간이 자신이 유일한 지도자임을 밝힌다","promptPanels":["At moonlit valley center, every beastfolk bows as the handsome gray-white wolfman descends from the cliff; reserve upper left.","The golden lion man stands one step behind him, proud rather than humiliated, clearly the trusted second-in-command; reserve upper right.","The wolfman faces the protagonist and states the valley has only one leader; wind curls around his claws; reserve upper left."],"bubbles":[{"type":"speech danger","side":"left","tail":"right","top":7,"width":38,"text":"이 계곡의 지도자는 하나다."},{"type":"speech","side":"right","tail":"left","top":40,"width":37,"text":"사자는 우리를 대표하는 2인자다."},{"type":"speech danger","side":"left","tail":"right","top":74,"width":30,"text":"그리고 네가 아니다."}]},
@@ -14,7 +14,7 @@ const SOULSTONE_ARC_2A = {
   },
   "14": {
     "title":"열린 계곡","subtitle":"처음으로 정복이 아니라 피난을 위해 싸우다",
-    "refs":["assets/concept-art/anime-v4/01-protagonist-and-wolf-anime-v4.png","assets/concept-art/anime-v4/05-beastfolk-leaders-anime-v4.png","assets/episode-keyframes/season-01/ep-14-open-valley.png"],
+    "refs":["assets/characters/anime-v4/01-protagonist-and-wolf-anime-v4.jpg","assets/characters/anime-v4/05-beastfolk-leaders-anime-v4.jpg","assets/keyframes/ep-14.jpg"],
     "characterNotes":"Maintain the protagonist, huge gray wolf, wolfman leader and lion second-in-command from episode 13. Human navy vice admiral uses compressed water and wears dark blue naval armor.",
     "strips":[
       {"image":"strips/ep-14/01-water-cannon.png","alt":"압축 물포가 절벽을 무너뜨린다","promptPanels":["The navy vice admiral compresses a spinning sphere of water between armored hands; reserve upper left.","He fires it like a cannon through the cliff, blasting stone apart without graphic casualties; reserve upper right.","The collapse cuts the residential terraces and children away from the fighters; reserve upper left."],"bubbles":[{"type":"speech danger","side":"left","tail":"right","top":7,"width":30,"text":"도망칠 길부터 끊어라."},{"type":"sfx","side":"right","top":40,"width":24,"text":"콰아앙"},{"type":"speech shout","side":"left","tail":"right","top":74,"width":29,"text":"거주 구역이 막혔다!"}]},
@@ -27,7 +27,7 @@ const SOULSTONE_ARC_2A = {
   },
   "15": {
     "title":"첫 번째 죽음","subtitle":"원하던 적의 죽음 앞에서 복수가 비어 있음을 보다",
-    "refs":["assets/concept-art/anime-v4/01-protagonist-and-wolf-anime-v4.png","assets/concept-art/anime-v4/05-beastfolk-leaders-anime-v4.png","assets/episode-keyframes/season-01/ep-15-first-death.png"],
+    "refs":["assets/characters/anime-v4/01-protagonist-and-wolf-anime-v4.jpg","assets/characters/anime-v4/05-beastfolk-leaders-anime-v4.jpg","assets/keyframes/ep-15.jpg"],
     "characterNotes":"Continue episode 14 designs. The forbidden water technique distorts moisture as blue ripples but violence remains non-graphic and emotionally focused.",
     "strips":[
       {"image":"strips/ep-15/01-water-inside-the-body.png","alt":"금지 기술이 생명체의 몸속 수분을 흔든다","promptPanels":["Invisible blue rings pass through the valley and fighters of both sides stagger; reserve upper left.","The wolfman drops to one knee coughing while the protagonist sees veins of water-light pulse under his own skin; non-graphic; reserve upper right.","The vice admiral stands at the center, his Soulstone dimming as he forces the technique wider; reserve upper left."],"bubbles":[{"type":"narration","side":"left","top":7,"width":37,"text":"물은 밖에만 있는 것이 아니다."},{"type":"speech dark","side":"right","tail":"left","top":40,"width":27,"text":"장기가… 찢어진다."},{"type":"speech danger","side":"left","tail":"right","top":74,"width":35,"text":"전부 멈출 때까지 계속한다."}]},
@@ -40,7 +40,7 @@ const SOULSTONE_ARC_2A = {
   },
   "16": {
     "title":"배신자의 가족","subtitle":"가장 분노한 순간에도 처형 대신 선택의 이유를 보다",
-    "refs":["assets/concept-art/anime-v4/01-protagonist-and-wolf-anime-v4.png","assets/concept-art/anime-v4/05-beastfolk-leaders-anime-v4.png","assets/episode-keyframes/season-01/ep-16-traitors-family.png"],
+    "refs":["assets/characters/anime-v4/01-protagonist-and-wolf-anime-v4.jpg","assets/characters/anime-v4/05-beastfolk-leaders-anime-v4.jpg","assets/keyframes/ep-16.jpg"],
     "characterNotes":"Continue the core designs. The internal traitor is an exhausted adult beastfolk with modest fox traits, frightened rather than sinister.",
     "strips":[
       {"image":"strips/ep-16/01-follow-the-scent.png","alt":"늑대가 열린 통로의 냄새를 추적한다","promptPanels":["After the battle, the huge gray wolf sniffs the floodgate handle and finds one familiar beastfolk scent under salt and blood; reserve upper left.","It leads the protagonist through damaged homes to a hidden storage loft; reserve upper right.","A trembling fox-eared beastfolk traitor is found clutching a coded metal strip; reserve upper left."],"bubbles":[{"type":"speech quiet","side":"left","tail":"right","top":7,"width":26,"text":"찾을 수 있겠어?"},{"type":"thought","side":"right","tail":"left","top":40,"width":25,"text":"아는 냄새다."},{"type":"speech dark","side":"left","tail":"right","top":74,"width":24,"text":"…내가 열었다."}]},
@@ -53,7 +53,7 @@ const SOULSTONE_ARC_2A = {
   },
   "17": {
     "title":"수정동굴의 빚","subtitle":"강한 전사가 원하는 것은 병력이 아니라 빼앗긴 영혼",
-    "refs":["assets/concept-art/anime-v4/06-troll-leader-anime-v4.png","assets/concept-art/anime-v4/01-protagonist-and-wolf-anime-v4.png","assets/episode-keyframes/season-01/ep-17-debt-of-the-crystal-cave.png"],
+    "refs":["assets/characters/anime-v4/06-troll-leader-anime-v4.jpg","assets/characters/anime-v4/01-protagonist-and-wolf-anime-v4.jpg","assets/keyframes/ep-17.jpg"],
     "characterNotes":"The troll leader is a young, handsome, powerfully built dark-armored warrior with white hair and blue crystal horn details, matching reference. His enormous blunt crystal weapon is one continuous sky-blue translucent Soulstone from grip through blade, no metal or leather handle.",
     "strips":[
       {"image":"strips/ep-17/01-crystal-cave-clash.png","alt":"수정동굴 입구에서 트롤 광부와 약탈단이 충돌한다","promptPanels":["The travelers reach a vast blue crystal cave where troll miners defend carts from human relic raiders; reserve upper left.","The young troll leader lands between them in dark armor, handsome and imposing; reserve upper right.","He swings a body-length continuous sky-blue crystal club, shattering the ground before the raiders; reserve upper left."],"bubbles":[{"type":"speech","side":"left","tail":"right","top":7,"width":30,"text":"수정동굴이 저기다."},{"type":"speech shout","side":"right","tail":"left","top":40,"width":25,"text":"광부를 놓아라!"},{"type":"sfx","side":"left","top":74,"width":22,"text":"콰직"}]},
@@ -66,7 +66,7 @@ const SOULSTONE_ARC_2A = {
   },
   "18": {
     "title":"돌려준 영혼","subtitle":"전리품으로 쓰지 않은 선택이 트롤의 신뢰를 얻다",
-    "refs":["assets/concept-art/anime-v4/06-troll-leader-anime-v4.png","assets/concept-art/anime-v4/01-protagonist-and-wolf-anime-v4.png","assets/episode-keyframes/season-01/ep-18-returned-souls.png"],
+    "refs":["assets/characters/anime-v4/06-troll-leader-anime-v4.jpg","assets/characters/anime-v4/01-protagonist-and-wolf-anime-v4.jpg","assets/keyframes/ep-18.jpg"],
     "characterNotes":"Continue episode 17 designs exactly. The troll leader's weapon remains one uninterrupted translucent sky-blue Soulstone from grip to blunt blade.",
     "strips":[
       {"image":"strips/ep-18/01-three-part-infiltration.png","alt":"늑대와 주인공과 트롤이 역할을 나눠 이동 요새에 침투한다","promptPanels":["At night the huge wolf follows captive scent along the mobile fortress's shadow; reserve upper left.","Inside a maintenance channel, the protagonist senses guard heartbeats through tiny blood-ice threads while wolfman follows as wind; reserve upper right.","At the front gate the troll leader roars and slams the continuous crystal weapon down, drawing every cannon; reserve upper left."],"bubbles":[{"type":"thought","side":"left","tail":"right","top":7,"width":25,"text":"광부는 위쪽."},{"type":"speech quiet","side":"right","tail":"left","top":40,"width":25,"text":"경비 셋, 다음 둘."},{"type":"speech shout","side":"left","tail":"right","top":74,"width":26,"text":"여길 봐라!"}]},
