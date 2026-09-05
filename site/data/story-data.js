@@ -47,7 +47,7 @@ const SOULSTONE_WEBTOON = {
         bubbles: [
           { type: "speech", side: "right", tail: "left", top: 8, width: 38, text: "엄마, 사진에는\n왜 아들이 둘이야?" },
           { type: "narration", side: "left", top: 40, width: 40, text: "사진 속에는 분명,\n자신보다 큰 아이가 있었다." },
-          { type: "speech", side: "left", tail: "right", top: 73, width: 36, text: "오늘은 늦었어.\n이제 들어가자." }
+          { type: "speech", side: "left", tail: "right", top: 73, width: 36, text: "작은 별, 이제 들어가자." }
         ]
       },
       {
@@ -175,11 +175,11 @@ const SOULSTONE_WEBTOON = {
       },
       {
         image: "strips/ep-03/05-unnamed-hybrid-experiment.png",
-        alt: "정체를 숨긴 채 실험받는 적응 진화 혼혈",
+        alt: "얼굴과 머리색이 가려진 채 실험받는 정체불명의 혼혈 실험체",
         bubbles: [
           { type: "speech quiet", side: "right", tail: "left", top: 8, width: 34, text: "충격 시험, 시작." },
           { type: "speech quiet", side: "left", tail: "right", top: 40, width: 44, text: "첫 피해 이후\n조직 적응 속도 상승." },
-          { type: "speech danger", side: "right", tail: "left", top: 74, width: 45, text: "계속해. 완성되면\n다음 원수의 그릇이 될 것이다." }
+          { type: "speech danger", side: "right", tail: "left", top: 74, width: 45, text: "계속해. 실험체 01은\n아직 쓸 수 있다." }
         ]
       },
       {
