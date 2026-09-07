@@ -112,16 +112,16 @@
 
   function renderEpisodes() {
     var grid = document.querySelector("#episode-grid");
-    if (!grid || typeof SOULSTONE_WEBTOON === "undefined") return;
+    if (!grid || typeof SOULSTONE_WEBTOON_V2 === "undefined") return;
     var selectedArc = arcs.find(function (arc) { return arc.id === activeArc; }) || arcs[0];
     var query = episodeQuery.trim().toLowerCase();
-    var episodes = Object.entries(SOULSTONE_WEBTOON).map(function (entry) { return [Number(entry[0]), entry[1]]; }).filter(function (entry) {
-      var searchable = (entry[0] + " " + entry[1].title + " " + entry[1].subtitle).toLowerCase();
+    var episodes = Object.entries(SOULSTONE_WEBTOON_V2.episodes).map(function (entry) { return [Number(entry[0]), entry[1]]; }).filter(function (entry) {
+      var searchable = (entry[0] + " " + entry[1].title + " " + entry[1].intro).toLowerCase();
       return entry[0] >= selectedArc.from && entry[0] <= selectedArc.to && (!query || searchable.indexOf(query) !== -1);
     });
     grid.innerHTML = episodes.map(function (entry) {
       var number = entry[0], data = entry[1], arc = arcForEpisode(number);
-      return '<article class="episode-card reveal"><a href="webtoon.html?ep=' + number + '"><div class="episode-thumb"><img src="assets/keyframes/ep-' + pad(number) + '.jpg" alt="' + number + '화 ' + data.title + ' 대표 이미지" loading="lazy"><span class="episode-number">EP ' + pad(number) + '</span></div><div class="episode-body"><small>' + arc.label.split("·").pop().trim() + '</small><h3>' + data.title + '</h3><p>' + data.subtitle + '</p><span>웹툰으로 읽기 →</span></div></a></article>';
+      return '<article class="episode-card reveal"><a href="webtoon.html?ep=' + number + '"><div class="episode-thumb"><img src="' + data.thumbnail + '" alt="' + number + '화 ' + data.title + ' 첫 장면" loading="lazy" style="object-position:top"><span class="episode-number">EP ' + pad(number) + '</span></div><div class="episode-body"><small>' + (data.updated ? '개편판 · ' : '기존판 · ') + arc.label.split("·").pop().trim() + '</small><h3>' + data.title + '</h3><p>' + data.intro + '</p><span>웹툰으로 읽기 →</span></div></a></article>';
     }).join("");
     var empty = document.querySelector("#episode-empty");
     if (empty) empty.hidden = episodes.length !== 0;
