@@ -1,0 +1,36 @@
+/* Preserved overlay layout for episodes not redrawn yet. */
+.legacy-strip { position: relative; margin: 0; overflow: hidden; background: #070910; }
+.legacy-strip > img { display: block; width: 100%; height: auto; }
+.legacy-bubble {
+  position: absolute;
+  z-index: 5;
+  padding: clamp(.55rem, 1.65vw, 1rem) clamp(.7rem, 2vw, 1.15rem);
+  border: clamp(2px, .33vw, 4px) solid var(--ink);
+  border-radius: 48% 46% 50% 44% / 48% 52% 45% 52%;
+  background: var(--paper);
+  color: var(--ink);
+  font-size: clamp(.76rem, 2.25vw, 1.2rem);
+  font-weight: 850;
+  line-height: 1.35;
+  text-align: center;
+  white-space: pre-line;
+  filter: drop-shadow(0 .25rem .2rem rgba(0,0,0,.28));
+}
+.legacy-bubble.left { left: 4.5%; }
+.legacy-bubble.right { right: 4.5%; }
+.legacy-bubble.speech::after, .legacy-bubble.whisper::after { content: ""; position: absolute; bottom: -1.05rem; width: 1.35rem; height: 1.7rem; background: var(--paper); clip-path: polygon(12% 0,100% 0,30% 100%); }
+.legacy-bubble.tail-left::after { left: 18%; transform: rotate(10deg); }
+.legacy-bubble.tail-right::after { right: 18%; transform: scaleX(-1) rotate(10deg); }
+.legacy-bubble.whisper { border-style: dashed; font-weight: 760; }
+.legacy-bubble.quiet { color: #4f5360; }
+.legacy-bubble.danger { border-color: #692f38; }
+.legacy-bubble.shout { border-radius: 12% 38% 15% 42%; font-weight: 950; }
+.legacy-bubble.narration, .legacy-bubble.classified { border-radius: .25rem; background: rgba(12,17,28,.92); border-color: #7187a7; color: #f2f6ff; text-align: left; font-weight: 720; }
+.legacy-bubble.classified { border-color: #aa4c58; background: rgba(33,12,17,.94); text-align: center; }
+.legacy-bubble.thought { border-radius: 48%; }
+.legacy-bubble.thought::before, .legacy-bubble.thought::after { content: ""; position: absolute; background: var(--paper); border: 2px solid var(--ink); border-radius: 50%; }
+.legacy-bubble.thought::before { width: .85rem; height: .85rem; bottom: -1rem; left: 24%; }
+.legacy-bubble.thought::after { width: .48rem; height: .48rem; bottom: -1.7rem; left: 18%; }
+.legacy-bubble.dark { background: #17141a; border-color: #7f3441; color: white; }
+.legacy-bubble.dark::before, .legacy-bubble.dark::after { background: #17141a; border-color: #7f3441; }
+.bubbles-hidden .legacy-bubble { display: none; }

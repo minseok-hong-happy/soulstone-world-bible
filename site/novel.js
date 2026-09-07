@@ -35,6 +35,10 @@
     chapterList.innerHTML = chapters.map(function (chapter) {
       return '<a href="#' + chapter[0] + '">' + escapeHtml(chapter[1]) + "</a>";
     }).join("");
+    if (/^#episode-\d{2}$/.test(location.hash)) {
+      var target = document.getElementById(location.hash.slice(1));
+      if (target) requestAnimationFrame(function () { target.scrollIntoView(); });
+    }
   }
 
   function syncContentsState() {
