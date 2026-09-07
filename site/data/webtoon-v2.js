@@ -7,7 +7,7 @@ const SOULSTONE_WEBTOON_V2 = {
       "intro": "성 밖 북부의 계곡 · 습격 전날 밤",
       "pages": [
         {
-          "image": "assets/webtoon-v2/ep-01/page-1.jpg",
+          "image": "assets/webtoon-v2/ep-01/page-1.jpg?v=2c04b53d6e5a",
           "panels": [
             {
               "alt": "죽은 강자의 소울스톤이 별이 되는 순간",
@@ -90,7 +90,7 @@ const SOULSTONE_WEBTOON_V2 = {
           ]
         },
         {
-          "image": "assets/webtoon-v2/ep-01/page-2.jpg",
+          "image": "assets/webtoon-v2/ep-01/page-2.jpg?v=d4778ae17840",
           "panels": [
             {
               "alt": "주인공의 피와 얼음 훈련",
@@ -179,7 +179,7 @@ const SOULSTONE_WEBTOON_V2 = {
           ]
         },
         {
-          "image": "assets/webtoon-v2/ep-01/page-3.jpg",
+          "image": "assets/webtoon-v2/ep-01/page-3.jpg?v=8d1e3dc5bda2",
           "panels": [
             {
               "alt": "두 아들이 담긴 가족 목걸이",
@@ -269,14 +269,14 @@ const SOULSTONE_WEBTOON_V2 = {
         }
       ],
       "updated": true,
-      "thumbnail": "assets/webtoon-v2/ep-01/page-1.jpg"
+      "thumbnail": "assets/webtoon-v2/ep-01/page-1.jpg?v=2c04b53d6e5a"
     },
     "2": {
       "title": "동굴의 가족",
       "intro": "북부 동굴 · 소년의 열두 번째 겨울",
       "pages": [
         {
-          "image": "assets/webtoon-v2/ep-02/page-1.jpg",
+          "image": "assets/webtoon-v2/ep-02/page-1.jpg?v=d2da9a66c221",
           "panels": [
             {
               "alt": "동굴 속 뱀파이어 공동체의 조용한 일상",
@@ -371,7 +371,7 @@ const SOULSTONE_WEBTOON_V2 = {
           ]
         },
         {
-          "image": "assets/webtoon-v2/ep-02/page-2.jpg",
+          "image": "assets/webtoon-v2/ep-02/page-2.jpg?v=c4101a47cb4b",
           "panels": [
             {
               "alt": "복수파를 막는 뱀파이어 우두머리",
@@ -454,7 +454,7 @@ const SOULSTONE_WEBTOON_V2 = {
           ]
         },
         {
-          "image": "assets/webtoon-v2/ep-02/page-3.jpg",
+          "image": "assets/webtoon-v2/ep-02/page-3.jpg?v=ebd16c6cbbde",
           "panels": [
             {
               "alt": "혼혈 능력을 놀림받는 어린 주인공",
@@ -538,14 +538,14 @@ const SOULSTONE_WEBTOON_V2 = {
         }
       ],
       "updated": true,
-      "thumbnail": "assets/webtoon-v2/ep-02/page-1.jpg"
+      "thumbnail": "assets/webtoon-v2/ep-02/page-1.jpg?v=d2da9a66c221"
     },
     "3": {
       "title": "일곱 가문의 깃발",
       "intro": "같은 밤 · 인간 연합 중앙성",
       "pages": [
         {
-          "image": "assets/webtoon-v2/ep-03/page-1.jpg",
+          "image": "assets/webtoon-v2/ep-03/page-1.jpg?v=b5ef3dee1411",
           "panels": [
             {
               "alt": "인간 연합의 거대한 성과 일곱 가문의 회의",
@@ -622,7 +622,7 @@ const SOULSTONE_WEBTOON_V2 = {
           ]
         },
         {
-          "image": "assets/webtoon-v2/ep-03/page-2.jpg",
+          "image": "assets/webtoon-v2/ep-03/page-2.jpg?v=d59cbbe2b628",
           "panels": [
             {
               "alt": "내용이 공개되지 않은 장로회의 봉인 명령",
@@ -705,7 +705,7 @@ const SOULSTONE_WEBTOON_V2 = {
           ]
         },
         {
-          "image": "assets/webtoon-v2/ep-03/page-3.jpg",
+          "image": "assets/webtoon-v2/ep-03/page-3.jpg?v=4752bd38d934",
           "panels": [
             {
               "alt": "얼굴과 머리색이 가려진 채 실험받는 정체불명의 혼혈 실험체",
@@ -795,14 +795,14 @@ const SOULSTONE_WEBTOON_V2 = {
         }
       ],
       "updated": true,
-      "thumbnail": "assets/webtoon-v2/ep-03/page-1.jpg"
+      "thumbnail": "assets/webtoon-v2/ep-03/page-1.jpg?v=b5ef3dee1411"
     },
     "4": {
       "title": "피의 우두머리",
       "intro": "북부 동굴 · 새벽",
       "pages": [
         {
-          "image": "assets/webtoon-v2/ep-04/page-1.jpg",
+          "image": "assets/webtoon-v2/ep-04/page-1.jpg?v=34fe50e3ad3f",
           "panels": [
             {
               "alt": "새벽 동굴을 봉쇄하는 인간 연합군",
@@ -879,7 +879,7 @@ const SOULSTONE_WEBTOON_V2 = {
           ]
         },
         {
-          "image": "assets/webtoon-v2/ep-04/page-2.jpg",
+          "image": "assets/webtoon-v2/ep-04/page-2.jpg?v=0c554f7588ca",
           "panels": [
             {
               "alt": "일반 병사의 공격도 막지 못하는 어린 주인공",
@@ -974,7 +974,7 @@ const SOULSTONE_WEBTOON_V2 = {
           ]
         },
         {
-          "image": "assets/webtoon-v2/ep-04/page-3.jpg",
+          "image": "assets/webtoon-v2/ep-04/page-3.jpg?v=af77ff446fe0",
           "panels": [
             {
               "alt": "피의 능력으로 육군 소장을 압도하는 아버지",
@@ -1057,14 +1057,14 @@ const SOULSTONE_WEBTOON_V2 = {
         }
       ],
       "updated": true,
-      "thumbnail": "assets/webtoon-v2/ep-04/page-1.jpg"
+      "thumbnail": "assets/webtoon-v2/ep-04/page-1.jpg?v=34fe50e3ad3f"
     },
     "5": {
       "title": "모래의 대장",
       "intro": "동굴 입구 · 증원 도착",
       "pages": [
         {
-          "image": "assets/webtoon-v2/ep-05/page-1.jpg",
+          "image": "assets/webtoon-v2/ep-05/page-1.jpg?v=179608ce5125",
           "panels": [
             {
               "alt": "모래 폭풍과 함께 전장에 도착한 육군 대장",
@@ -1153,7 +1153,7 @@ const SOULSTONE_WEBTOON_V2 = {
           ]
         },
         {
-          "image": "assets/webtoon-v2/ep-05/page-2.jpg",
+          "image": "assets/webtoon-v2/ep-05/page-2.jpg?v=03f9e56064be",
           "panels": [
             {
               "alt": "피난로를 지키기 위해 거대한 피의 장막을 펼친 아버지",
@@ -1248,7 +1248,7 @@ const SOULSTONE_WEBTOON_V2 = {
           ]
         },
         {
-          "image": "assets/webtoon-v2/ep-05/page-3.jpg",
+          "image": "assets/webtoon-v2/ep-05/page-3.jpg?v=2e0d38574e42",
           "panels": [
             {
               "alt": "모래의 대장에게 패배하고 별이 되는 아버지",
@@ -1344,14 +1344,14 @@ const SOULSTONE_WEBTOON_V2 = {
         }
       ],
       "updated": true,
-      "thumbnail": "assets/webtoon-v2/ep-05/page-1.jpg"
+      "thumbnail": "assets/webtoon-v2/ep-05/page-1.jpg?v=179608ce5125"
     },
     "6": {
       "title": "어머니의 겨울",
       "intro": "북쪽 탈출로 · 얼음벽 뒤",
       "pages": [
         {
-          "image": "assets/webtoon-v2/ep-06/page-1.jpg",
+          "image": "assets/webtoon-v2/ep-06/page-1.jpg?v=73907e8c316e",
           "panels": [
             {
               "alt": "모래의 육군 대장 앞에서 갈라지는 어머니의 얼음벽",
@@ -1428,7 +1428,7 @@ const SOULSTONE_WEBTOON_V2 = {
           ]
         },
         {
-          "image": "assets/webtoon-v2/ep-06/page-2.jpg",
+          "image": "assets/webtoon-v2/ep-06/page-2.jpg?v=59eafaf499a2",
           "panels": [
             {
               "alt": "어머니와 주인공의 마지막 포옹",
@@ -1517,7 +1517,7 @@ const SOULSTONE_WEBTOON_V2 = {
           ]
         },
         {
-          "image": "assets/webtoon-v2/ep-06/page-3.jpg",
+          "image": "assets/webtoon-v2/ep-06/page-3.jpg?v=47473ae45f1b",
           "panels": [
             {
               "alt": "늑대가 주인공을 등에 태워 얼어붙은 동굴에서 탈출하는 장면",
@@ -1601,14 +1601,14 @@ const SOULSTONE_WEBTOON_V2 = {
         }
       ],
       "updated": true,
-      "thumbnail": "assets/webtoon-v2/ep-06/page-1.jpg"
+      "thumbnail": "assets/webtoon-v2/ep-06/page-1.jpg?v=73907e8c316e"
     },
     "7": {
       "title": "사흘을 달린 늑대",
       "intro": "동굴을 떠난 뒤 사흘",
       "pages": [
         {
-          "image": "assets/webtoon-v2/ep-07/page-1.jpg",
+          "image": "assets/webtoon-v2/ep-07/page-1.jpg?v=282a29604764",
           "panels": [
             {
               "alt": "상처 입은 늑대가 주인공을 싣고 첫날 밤을 달리는 장면",
@@ -1685,7 +1685,7 @@ const SOULSTONE_WEBTOON_V2 = {
           ]
         },
         {
-          "image": "assets/webtoon-v2/ep-07/page-2.jpg",
+          "image": "assets/webtoon-v2/ep-07/page-2.jpg?v=3c6b7133775a",
           "panels": [
             {
               "alt": "눈과 삼나무 냄새를 따라 오래전 기억한 설산 길을 고르는 늑대",
@@ -1697,7 +1697,7 @@ const SOULSTONE_WEBTOON_V2 = {
                   "speaker": "-"
                 }
               ],
-              "shot": "The exhausted huge gray wolf catches alpine cedar smoke carried by snow and freezes as a scent memory returns; the unconscious boy and twin swords remain with it; reserve upper left."
+              "shot": "Second day in snow: natural gray wolf rests briefly beside unconscious silver-white child, two CLOSED sword scabbards beside them; familiar cedar wood smoke blows through snow."
             },
             {
               "alt": "눈과 삼나무 냄새를 따라 오래전 기억한 설산 길을 고르는 늑대",
@@ -1709,7 +1709,7 @@ const SOULSTONE_WEBTOON_V2 = {
                   "speaker": "-"
                 }
               ],
-              "shot": "Fragmentary scent-memory with no identifiable people: puppy-sized pawprints in snow, a remote cabin silhouette, warm smoke, and one anonymous gloved hand near a soft pearl-white Soulstone glow; never show the mother or the old man's face; reserve upper right."
+              "shot": "Wolf sniffs cedar bark and follows a faint stove-smoke plume toward distant mountain cabin; no person or family memory appears."
             },
             {
               "alt": "눈과 삼나무 냄새를 따라 오래전 기억한 설산 길을 고르는 늑대",
@@ -1721,7 +1721,7 @@ const SOULSTONE_WEBTOON_V2 = {
                   "speaker": "-"
                 }
               ],
-              "shot": "Back in the present, the adult wolf turns away from the easier road and deliberately climbs toward the same distant cabin smoke through the blizzard; reserve upper left and upper right."
+              "shot": "Wolf crouches to carry child farther along remembered path, holds leather loop joining TWO CLOSED scabbards in mouth, not naked blades."
             },
             {
               "alt": "늑대가 추격병을 따돌리기 위해 거짓 냄새를 남기는 장면",
@@ -1733,7 +1733,7 @@ const SOULSTONE_WEBTOON_V2 = {
                   "speaker": "추격병"
                 }
               ],
-              "shot": "Mounted alliance pursuers discover the wolf's tracks entering a snowy pine valley; reserve upper right."
+              "shot": "Three ordinary HUMAN pursuit soldiers with helmets, dark brown winter uniforms and plain spears notice tracks at a snowy fork. No beast ears, no tails, no wolfman, no lion, no main commanders."
             },
             {
               "alt": "늑대가 추격병을 따돌리기 위해 거짓 냄새를 남기는 장면",
@@ -1745,7 +1745,7 @@ const SOULSTONE_WEBTOON_V2 = {
                   "speaker": "-"
                 }
               ],
-              "shot": "The wolf rubs its already scraped flank against branches and drags a blood-scented cloth toward a false downhill route, then doubles back through a stream; keep non-graphic; reserve upper left."
+              "shot": "Natural gray wolf has rubbed a torn strip of its blood-stained bedding against lower trail, then circles back uphill beside securely resting child. No second magical wolf or clone."
             },
             {
               "alt": "늑대가 추격병을 따돌리기 위해 거짓 냄새를 남기는 장면",
@@ -1757,12 +1757,12 @@ const SOULSTONE_WEBTOON_V2 = {
                   "speaker": "추격병"
                 }
               ],
-              "shot": "The pursuers rush down the false trail while the wolf silently watches from the opposite ridge with the child; reserve upper right."
+              "shot": "Helmeted HUMAN patrol follows false trail downhill while wolf carries unconscious child unseen along upper ledge. Two sword scabbards remain CLOSED; no dialogue from wolf."
             }
           ]
         },
         {
-          "image": "assets/webtoon-v2/ep-07/page-3.jpg",
+          "image": "assets/webtoon-v2/ep-07/page-3.jpg?v=2d21666ead19",
           "panels": [
             {
               "alt": "사흘 만에 설산 나무집에 도착한 늑대",
@@ -1840,14 +1840,14 @@ const SOULSTONE_WEBTOON_V2 = {
         }
       ],
       "updated": true,
-      "thumbnail": "assets/webtoon-v2/ep-07/page-1.jpg"
+      "thumbnail": "assets/webtoon-v2/ep-07/page-1.jpg?v=282a29604764"
     },
     "8": {
       "title": "약한 아이",
       "intro": "설산의 나무집 · 구조된 다음 날",
       "pages": [
         {
-          "image": "assets/webtoon-v2/ep-08/page-1.jpg",
+          "image": "assets/webtoon-v2/ep-08/page-1.jpg?v=e8e1592fc0a2",
           "panels": [
             {
               "alt": "설산 나무집에서 부모를 찾으며 깨어난 주인공",
@@ -1924,7 +1924,7 @@ const SOULSTONE_WEBTOON_V2 = {
           ]
         },
         {
-          "image": "assets/webtoon-v2/ep-08/page-2.jpg",
+          "image": "assets/webtoon-v2/ep-08/page-2.jpg?v=b7ff37ad6801",
           "panels": [
             {
               "alt": "부모와 늑대가 만든 탈출의 대가를 깨닫는 주인공",
@@ -2001,7 +2001,7 @@ const SOULSTONE_WEBTOON_V2 = {
           ]
         },
         {
-          "image": "assets/webtoon-v2/ep-08/page-3.jpg",
+          "image": "assets/webtoon-v2/ep-08/page-3.jpg?v=b54f40b9c266",
           "panels": [
             {
               "alt": "무기 없이 설산의 밤을 버티는 첫 훈련",
@@ -2085,7 +2085,7 @@ const SOULSTONE_WEBTOON_V2 = {
         }
       ],
       "updated": true,
-      "thumbnail": "assets/webtoon-v2/ep-08/page-1.jpg"
+      "thumbnail": "assets/webtoon-v2/ep-08/page-1.jpg?v=e8e1592fc0a2"
     },
     "9": {
       "title": "세 번의 겨울",

@@ -10,7 +10,7 @@ for(let n=1;n<=60;n++){
  const e=data[n];assert.equal(e.title,novelTitles[n-1]);
  const refs=e.updated?e.pages.map(p=>p.image):e.legacy.map(s=>s.image.replace(/^strips\//,'assets/webtoon/').replace(/\.png$/i,'.jpg'));
  if(e.updated)assert.equal(e.pages.reduce((sum,p)=>sum+p.panels.length,0),18);
- for(const ref of [...refs,e.thumbnail]){assert.ok(fs.existsSync(path.join(site,ref)),`Missing ${ref}`);images++;}
+ for(const ref of [...refs,e.thumbnail]){assert.ok(fs.existsSync(path.join(site,ref.split('?')[0])),`Missing ${ref}`);images++;}
 }
 async function browserCheck(){
  const runtime=process.env.PLAYWRIGHT_PATH||'C:/Users/minse/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright';

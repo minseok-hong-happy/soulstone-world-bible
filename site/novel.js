@@ -66,7 +66,7 @@
   window.addEventListener("resize", syncContentsState);
   syncContentsState();
 
-  fetch("novel.md").then(function (response) {
+  fetch("novel.md", { cache: "no-cache" }).then(function (response) {
     if (!response.ok) throw new Error("소설 원문을 불러오지 못했습니다.");
     return response.text();
   }).then(render).catch(function () {
