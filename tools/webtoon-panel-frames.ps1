@@ -3,6 +3,7 @@ Add-Type -AssemblyName System.Drawing
 $repo=Split-Path $PSScriptRoot -Parent
 $frameMap=[ordered]@{}
 $audit=@()
+$overrides=Get-Content -LiteralPath (Join-Path $PSScriptRoot 'webtoon-frame-overrides.json') -Raw | ConvertFrom-Json
 Get-ChildItem -LiteralPath (Join-Path $repo 'site/assets/webtoon-v2') -Directory | Sort-Object Name | ForEach-Object {
   $episodeFolder=$_
   Get-ChildItem -LiteralPath $episodeFolder.FullName -Filter '*.jpg' | Sort-Object Name | ForEach-Object {
@@ -26,12 +27,18 @@ Get-ChildItem -LiteralPath (Join-Path $repo 'site/assets/webtoon-v2') -Directory
     $bitmap.Dispose()
     $candidates=@($runs | Where-Object { $_.center -gt $h*.075 -and $_.center -lt $h*.95 })
     $key='assets/webtoon-v2/'+$episodeFolder.Name+'/'+$asset.Name
+    $method='detected'
+    $manual=$overrides.PSObject.Properties[$key]
+    if($manual -and (Get-FileHash -LiteralPath $asset.FullName -Algorithm SHA256).Hash -eq $manual.Value.sha256){
+      $candidates=@($manual.Value.gutters | ForEach-Object { @{start=[int]$_[0];end=[int]$_[1]} })
+      $method='visually-verified'
+    }
     if($candidates.Count -eq 5){
       $frames=@();$from=0
       foreach($line in $candidates){$frames+=@{y=$from;height=$line.start-$from};$from=$line.end}
       $frames+=@{y=$from;height=$h-$from}
       $frameMap[$key]=@{width=$w;height=$h;frames=$frames}
-      $audit+=@{image=$key;status='detected';heights=@($frames | ForEach-Object height)}
+      $audit+=@{image=$key;status=$method;heights=@($frames | ForEach-Object height)}
     }else{
       $audit+=@{image=$key;status='review';candidates=@($candidates | ForEach-Object center)}
     }

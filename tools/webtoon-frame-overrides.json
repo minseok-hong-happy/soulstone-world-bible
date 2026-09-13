@@ -1,0 +1,12 @@
+{
+  "assets/webtoon-v2/ep-09/page-1.jpg": {
+    "sha256": "3EB89DCAB95E912F352AF8DBC32D8AC2770907745B4F687F2638F793D30D078F",
+    "reason": "Snow creates extra bright rows; the five actual gutters were visually checked and sampled.",
+    "gutters": [[427,430],[805,809],[1204,1207],[1546,1551],[1848,1851]]
+  },
+  "assets/webtoon-v2/ep-12/page-2.jpg": {
+    "sha256": "257AD41E73664C0BCDFF0D9ADA0CEAAB35F2DC01847563C0EC5747E216DEB954",
+    "reason": "The fifth gutter has a dark edge intrusion; five scene boundaries were visually checked and sampled.",
+    "gutters": [[357,360],[715,717],[1080,1082],[1444,1446],[1772,1777]]
+  }
+}

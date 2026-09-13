@@ -69,7 +69,7 @@ async function browserCheck(){
     assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'Lettering horizontal overflow');
    }
   }
-  for(const sample of [{e:1,p:7,w:390},{e:1,p:12,w:864},{e:4,p:13,w:390},{e:8,p:10,w:390}]){
+  for(const sample of [{e:1,p:7,w:390},{e:1,p:12,w:864},{e:4,p:13,w:390},{e:8,p:10,w:390},{e:9,p:13,w:390},{e:10,p:10,w:390},{e:12,p:1,w:390},{e:12,p:15,w:864},{e:14,p:13,w:390},{e:15,p:10,w:390},{e:16,p:11,w:390}].filter(s=>data[s.e].updated)){
    await page.setViewportSize({width:sample.w,height:900});
    await page.goto(url+'/webtoon.html?ep='+sample.e);await page.locator('#panel-'+sample.p).scrollIntoViewIfNeeded();
    await page.evaluate(p=>{window.scrollTo(0,document.getElementById('panel-'+p).offsetTop-108);SoulstoneBalloons.refresh();},sample.p);

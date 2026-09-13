@@ -8,7 +8,11 @@
     5,
     6,
     7,
-    8
+    8,
+    9,
+    10,
+    11,
+    12
   ],
   "completedAssets": [
     "ep-01-page-1",
@@ -35,11 +39,8 @@
     "ep-08-page-1",
     "ep-08-page-2",
     "ep-08-page-3",
-    "ep-09-page-2",
-    "ep-47-page-1"
-  ],
-  "pendingAssets": [
     "ep-09-page-1",
+    "ep-09-page-2",
     "ep-09-page-3",
     "ep-10-page-1",
     "ep-10-page-2",
@@ -50,6 +51,9 @@
     "ep-12-page-1",
     "ep-12-page-2",
     "ep-12-page-3",
+    "ep-47-page-1"
+  ],
+  "pendingAssets": [
     "ep-13-page-1",
     "ep-13-page-2",
     "ep-13-page-3",
