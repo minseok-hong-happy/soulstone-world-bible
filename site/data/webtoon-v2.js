@@ -179,7 +179,7 @@ const SOULSTONE_WEBTOON_V2 = {
           ]
         },
         {
-          "image": "assets/webtoon-v2/ep-01/page-3.jpg?v=8d1e3dc5bda2",
+          "image": "assets/webtoon-v2/ep-01/page-3.jpg?v=36e6770b272f",
           "panels": [
             {
               "alt": "두 아들이 담긴 가족 목걸이",
@@ -276,7 +276,7 @@ const SOULSTONE_WEBTOON_V2 = {
       "intro": "북부 동굴 · 소년의 열두 번째 겨울",
       "pages": [
         {
-          "image": "assets/webtoon-v2/ep-02/page-1.jpg?v=d2da9a66c221",
+          "image": "assets/webtoon-v2/ep-02/page-1.jpg?v=70582aed0bf3",
           "panels": [
             {
               "alt": "동굴 속 뱀파이어 공동체의 조용한 일상",
@@ -454,7 +454,7 @@ const SOULSTONE_WEBTOON_V2 = {
           ]
         },
         {
-          "image": "assets/webtoon-v2/ep-02/page-3.jpg?v=ebd16c6cbbde",
+          "image": "assets/webtoon-v2/ep-02/page-3.jpg?v=2c4809bea20a",
           "panels": [
             {
               "alt": "혼혈 능력을 놀림받는 어린 주인공",
@@ -538,7 +538,7 @@ const SOULSTONE_WEBTOON_V2 = {
         }
       ],
       "updated": true,
-      "thumbnail": "assets/webtoon-v2/ep-02/page-1.jpg?v=d2da9a66c221"
+      "thumbnail": "assets/webtoon-v2/ep-02/page-1.jpg?v=70582aed0bf3"
     },
     "3": {
       "title": "일곱 가문의 깃발",
@@ -974,7 +974,7 @@ const SOULSTONE_WEBTOON_V2 = {
           ]
         },
         {
-          "image": "assets/webtoon-v2/ep-04/page-3.jpg?v=af77ff446fe0",
+          "image": "assets/webtoon-v2/ep-04/page-3.jpg?v=49884cdf28df",
           "panels": [
             {
               "alt": "피의 능력으로 육군 소장을 압도하는 아버지",
@@ -1351,7 +1351,7 @@ const SOULSTONE_WEBTOON_V2 = {
       "intro": "북쪽 탈출로 · 얼음벽 뒤",
       "pages": [
         {
-          "image": "assets/webtoon-v2/ep-06/page-1.jpg?v=73907e8c316e",
+          "image": "assets/webtoon-v2/ep-06/page-1.jpg?v=a187cd415efd",
           "panels": [
             {
               "alt": "모래의 육군 대장 앞에서 갈라지는 어머니의 얼음벽",
@@ -1601,7 +1601,7 @@ const SOULSTONE_WEBTOON_V2 = {
         }
       ],
       "updated": true,
-      "thumbnail": "assets/webtoon-v2/ep-06/page-1.jpg?v=73907e8c316e"
+      "thumbnail": "assets/webtoon-v2/ep-06/page-1.jpg?v=a187cd415efd"
     },
     "7": {
       "title": "사흘을 달린 늑대",
@@ -1685,7 +1685,7 @@ const SOULSTONE_WEBTOON_V2 = {
           ]
         },
         {
-          "image": "assets/webtoon-v2/ep-07/page-2.jpg?v=3c6b7133775a",
+          "image": "assets/webtoon-v2/ep-07/page-2.jpg?v=15e8f40aedc0",
           "panels": [
             {
               "alt": "눈과 삼나무 냄새를 따라 오래전 기억한 설산 길을 고르는 늑대",
@@ -1762,7 +1762,7 @@ const SOULSTONE_WEBTOON_V2 = {
           ]
         },
         {
-          "image": "assets/webtoon-v2/ep-07/page-3.jpg?v=2d21666ead19",
+          "image": "assets/webtoon-v2/ep-07/page-3.jpg?v=ca40c7d492cf",
           "panels": [
             {
               "alt": "사흘 만에 설산 나무집에 도착한 늑대",
@@ -13434,5 +13434,5 @@ const SOULSTONE_WEBTOON_V2 = {
     7,
     8
   ],
-  "checkpointDate": "2026-09-07"
+  "checkpointDate": "2026-09-13"
 };

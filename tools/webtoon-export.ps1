@@ -53,4 +53,5 @@ if ($Boards) {
     $font.Dispose();$g.Dispose();$canvas.Dispose()
   }
 }
+& (Join-Path $PSScriptRoot 'webtoon-panel-frames.ps1') | Out-Null
 $dimensions | ConvertTo-Json -Compress

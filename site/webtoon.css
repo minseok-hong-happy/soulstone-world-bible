@@ -15,23 +15,27 @@ a{color:inherit}
 .episode-head h1{margin:.6rem 0 .8rem;font-size:clamp(1.9rem,6.4vw,3.4rem);line-height:1.2;letter-spacing:-.055em}
 .episode-head p{margin:0;font-size:clamp(.76rem,2.8vw,.95rem);color:#63717b;line-height:1.7}
 .episode-head p.edition-note{margin-top:.8rem;font-size:.72rem;color:#4a7a88}
-.comic-panel{position:relative;break-inside:avoid;padding-bottom:clamp(18px,4vw,36px)}
-.dialogue-space{display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:1rem;padding:1.3rem 6% 1.65rem;background:var(--paper);min-height:6.5rem}
-.dialogue{position:relative;max-width:68%;padding:.7rem 1rem;border:2px solid var(--ink);border-radius:48% 46% 46% 49% / 42% 45% 45% 45%;background:#fff;color:var(--ink);font-size:clamp(.87rem,2.75vw,1.16rem);font-weight:650;line-height:1.65;white-space:pre-line;word-break:keep-all;overflow-wrap:anywhere;text-align:center}
-.dialogue.right{margin-left:auto}.dialogue.left{margin-right:auto}
-.dialogue.speech:after,.dialogue.whisper:after{content:"";position:absolute;bottom:-15px;left:28%;width:17px;height:18px;background:#fff;border-left:2px solid var(--ink);clip-path:polygon(0 0,100% 0,0 100%);transform:skewX(-15deg)}
-.dialogue.right:after{left:auto;right:28%;transform:scaleX(-1) skewX(-15deg)}
-.speaker{display:block;color:#6b7680;font-size:.65em;line-height:1.2;margin-bottom:.2rem;font-weight:600}
-.dialogue.narration,.dialogue.classified{border:0;border-left:3px solid #7f9ba9;border-radius:0;text-align:left;background:#edf2f3;padding:.6rem .85rem;font-weight:500;max-width:84%;font-size:clamp(.82rem,2.7vw,1.03rem)}
-.dialogue.thought{border-style:dashed;color:#526373}.dialogue.shout{border-radius:12px;transform:rotate(-1deg);font-weight:850;border-width:3px}
-.dialogue.echo{background:#2d2531;color:#ffeaef;border-color:#a75c73}.dialogue.echo .speaker{color:#dec1d0}
-.dialogue.sfx{font-size:clamp(1.4rem,5vw,2.4rem);padding:.1rem .7rem;border:0;background:transparent;font-style:italic;font-weight:950;color:#314556;transform:rotate(-6deg);letter-spacing:-.06em}
-.panel-art{position:relative;width:100%;aspect-ratio:2/1;overflow:hidden;background:#d5dfe3}
-.panel-art img{display:block;position:absolute;left:0;top:calc(var(--row)*-100%);width:100%;height:600%;object-fit:fill}
+.comic-panel{--gutter:clamp(18px,4vw,34px);position:relative;break-inside:avoid;padding-bottom:var(--gutter);isolation:isolate}
+.balloon-layer{position:absolute;inset:0 0 var(--gutter);z-index:2;pointer-events:none}
+.dialogue{--balloon-fill:#fff;--balloon-stroke:#191b22;position:absolute;z-index:4;padding:.68em 1.05em;color:#14151b;font-size:clamp(1rem,2.6vw,1.4rem);font-weight:650;line-height:1.38;letter-spacing:-.03em;white-space:pre-line;word-break:keep-all;overflow-wrap:anywhere;text-align:center;pointer-events:auto;filter:drop-shadow(0 1px 1px #0002)}
+.balloon-text{position:relative;z-index:1;white-space:normal}
+.balloon-outline{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none}
+.balloon-outline path,.balloon-outline circle{fill:var(--balloon-fill);stroke:var(--balloon-stroke);stroke-width:1.7;stroke-linejoin:round;vector-effect:non-scaling-stroke}
+.dialogue.whisper{font-weight:500}.dialogue.whisper path{stroke-dasharray:4 2}
+.dialogue.quiet{font-weight:500;color:#41414c}
+.dialogue.narration,.dialogue.classified{padding:.5em .7em;border:1px solid #292d36;border-radius:1px;background:#fffffff5;box-shadow:0 1px 3px #0002;text-align:left;font-weight:500;font-size:clamp(.94rem,2.3vw,1.2rem);line-height:1.48;letter-spacing:-.025em}
+.dialogue.classified{background:#1d2029;color:white;text-align:center}
+.dialogue.thought{font-weight:500;color:#373a4b}
+.dialogue.shout{padding:.85em 1.1em;font-weight:850}.dialogue.shout path{stroke-width:2}
+.dialogue.echo,.dialogue.dark{--balloon-fill:#22202a;--balloon-stroke:#f4e5eb;color:#fff5f8}
+.dialogue.sfx{padding:0;font-size:clamp(1.7rem,5vw,3.2rem);font-style:italic;font-weight:950;color:white;-webkit-text-stroke:1px #172634;paint-order:stroke fill;text-shadow:2px 3px #172634;transform:rotate(-7deg);letter-spacing:-.08em;filter:none}
+.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+.panel-art{position:relative;width:100%;aspect-ratio:var(--frame-ratio,2);overflow:hidden;background:#d5dfe3}
+.panel-art img{display:block;position:absolute;left:0;top:var(--frame-top,calc(var(--row)*-100%));width:100%;height:var(--frame-height,600%);object-fit:fill}
 .episode-end{padding:3rem 1rem 4rem;text-align:center;background:linear-gradient(var(--paper),#e8f0f3)}
 .episode-end strong{font-size:1.2rem;letter-spacing:.1em}.episode-nav{display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem;margin:1.6rem 0}
 .episode-nav a{padding:.8rem 1rem;border:1px solid #c6d2d6;border-radius:9px;background:#fff;text-decoration:none;font-size:.86rem;font-weight:650}.episode-nav a.next-episode{background:#284e60;color:white;border-color:#284e60}.novel-link{font-size:.8rem;color:#617782}
-.bubbles-hidden .dialogue-space{display:none}.bubbles-hidden .comic-panel{padding-bottom:12px}
-@media(max-width:640px){.reader-toolbar{flex-wrap:wrap;padding:.55rem .75rem;gap:.45rem}.reader-toolbar label{order:3;width:100%;justify-content:center}.reader-toolbar select{width:100%;max-width:100%;flex:1}.toolbar-actions{margin-left:auto}.reader-brand{font-size:.78rem}.dialogue-space{padding:1rem 5% 1.5rem;gap:.7rem;min-height:5.7rem}.dialogue{max-width:80%;padding:.6rem .85rem}.dialogue.narration{max-width:95%}.episode-head{padding:2.2rem 1rem 2rem}}
+.bubbles-hidden .balloon-layer{visibility:hidden}
+@media(max-width:640px){.reader-toolbar{flex-wrap:wrap;padding:.55rem .75rem;gap:.45rem}.reader-toolbar label{order:3;width:100%;justify-content:center}.reader-toolbar select{width:100%;max-width:100%;flex:1}.toolbar-actions{margin-left:auto}.reader-brand{font-size:.78rem}.episode-head{padding:2.2rem 1rem 2rem}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
 @media print{.reader-toolbar{display:none}body{background:white}.reader{box-shadow:none}}
