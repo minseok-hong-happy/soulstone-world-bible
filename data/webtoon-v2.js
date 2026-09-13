@@ -2090,897 +2090,980 @@ const SOULSTONE_WEBTOON_V2 = {
     "9": {
       "title": "세 번의 겨울",
       "intro": "설산 · 첫 겨울에서 세 번째 겨울까지",
-      "pages": [],
-      "updated": false,
-      "legacy": [
+      "pages": [
         {
-          "image": "strips/ep-09/01-first-winter-collapse.png",
-          "alt": "피와 얼음을 따로 쓰다 쓰러지는 첫해의 주인공",
-          "promptPanels": [
-            "First winter: the 12-year-old repeatedly forms blood blades with one hand and ice walls with the other, inefficient and exhausted; reserve upper left.",
-            "He overuses blood, then chills himself with uncontrolled ice and collapses harmlessly in snow; the wolf calls for the old man; reserve upper right.",
-            "The old man warms him beside a field fire but places the two failed weapons apart to show the mistake; reserve upper left."
-          ],
-          "bubbles": [
+          "image": "assets/webtoon-v2/ep-09/page-1.jpg?v=3eb89dcab95e",
+          "panels": [
             {
-              "type": "speech shout",
-              "side": "left",
-              "tail": "right",
-              "top": 7,
-              "width": 27,
-              "text": "둘 다 더 강하게!"
+              "alt": "피와 얼음을 따로 쓰다 쓰러지는 첫해의 주인공",
+              "bubbles": [
+                {
+                  "type": "speech shout",
+                  "side": "left",
+                  "text": "둘 다 더 강하게!",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "First winter: the 12-year-old repeatedly forms blood blades with one hand and ice walls with the other, inefficient and exhausted; reserve upper left."
             },
             {
-              "type": "speech danger",
-              "side": "right",
-              "tail": "left",
-              "top": 40,
-              "width": 35,
-              "text": "피도 잃고 체온도 잃었다."
+              "alt": "피와 얼음을 따로 쓰다 쓰러지는 첫해의 주인공",
+              "bubbles": [
+                {
+                  "type": "narration",
+                  "side": "right",
+                  "text": "피도 잃고 체온도 잃었다.",
+                  "speaker": "-"
+                }
+              ],
+              "shot": "He overuses blood, then chills himself with uncontrolled ice and collapses harmlessly in snow; the wolf calls for the old man; reserve upper right."
             },
             {
-              "type": "speech danger",
-              "side": "left",
-              "tail": "right",
-              "top": 73,
-              "width": 38,
-              "text": "두 힘을 가진 게 아니라\n두 번 쓰러지는 방식이군."
+              "alt": "피와 얼음을 따로 쓰다 쓰러지는 첫해의 주인공",
+              "bubbles": [
+                {
+                  "type": "speech danger",
+                  "side": "left",
+                  "text": "두 힘을 가진 게 아니라\n두 번 쓰러지는 방식이군.",
+                  "speaker": "노인"
+                }
+              ],
+              "shot": "The old man warms him beside a field fire but places the two failed weapons apart to show the mistake; reserve upper left."
+            },
+            {
+              "alt": "힘을 구분하지 말고 문제를 보라는 노인의 수업",
+              "bubbles": [
+                {
+                  "type": "speech danger",
+                  "side": "right",
+                  "text": "힘을 늘리려 하지 마라.",
+                  "speaker": "노인"
+                }
+              ],
+              "shot": "The old man draws one straight sword line in snow and asks the boy to solve one obstacle rather than show two powers; reserve upper right."
+            },
+            {
+              "alt": "힘을 구분하지 말고 문제를 보라는 노인의 수업",
+              "bubbles": [
+                {
+                  "type": "speech danger",
+                  "side": "left",
+                  "text": "피가 모양을 잡고, 얼음이 버티게 해 봐.",
+                  "speaker": "노인"
+                }
+              ],
+              "shot": "He sends a hanging target swinging through icy wind while the boy tries separate attacks and misses; reserve upper left."
+            },
+            {
+              "alt": "힘을 구분하지 말고 문제를 보라는 노인의 수업",
+              "bubbles": [
+                {
+                  "type": "thought",
+                  "side": "right",
+                  "text": "둘이 같은 일을 할 필요는 없구나.",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "Close on the boy observing how a thin frozen blood thread could both guide and cut; reserve upper right."
             }
           ]
         },
         {
-          "image": "strips/ep-09/02-one-problem-one-tool.png",
-          "alt": "힘을 구분하지 말고 문제를 보라는 노인의 수업",
-          "promptPanels": [
-            "The old man draws one straight sword line in snow and asks the boy to solve one obstacle rather than show two powers; reserve upper right.",
-            "He sends a hanging target swinging through icy wind while the boy tries separate attacks and misses; reserve upper left.",
-            "Close on the boy observing how a thin frozen blood thread could both guide and cut; reserve upper right."
-          ],
-          "bubbles": [
+          "image": "assets/webtoon-v2/ep-09/page-2.jpg?v=86c40e64cc05",
+          "panels": [
             {
-              "type": "speech danger",
-              "side": "right",
-              "tail": "left",
-              "top": 7,
-              "width": 42,
-              "text": "네가 가진 힘의 수를 세지 마라."
+              "alt": "피를 얼려 손실을 줄이는 전투법을 발견한 둘째 해",
+              "bubbles": [
+                {
+                  "type": "speech",
+                  "side": "left",
+                  "text": "피를 흘리는 게 아니라\n얼음 속에 가둔다.",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "Second winter: now older, the boy forms a transparent ice blade with thin crimson veins sealed inside instead of exposed blood; reserve upper left."
             },
             {
-              "type": "speech danger",
-              "side": "left",
-              "tail": "right",
-              "top": 40,
-              "width": 37,
-              "text": "눈앞의 문제는 하나다."
+              "alt": "피를 얼려 손실을 줄이는 전투법을 발견한 둘째 해",
+              "bubbles": [
+                {
+                  "type": "speech shout",
+                  "side": "right",
+                  "text": "됐다!",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "The weapon bends into a guided thread-blade without spilling more blood, striking multiple wooden targets; reserve upper right."
             },
             {
-              "type": "thought",
-              "side": "right",
-              "tail": "left",
-              "top": 74,
-              "width": 35,
-              "text": "피를… 얼음 안에 넣으면?"
+              "alt": "피를 얼려 손실을 줄이는 전투법을 발견한 둘째 해",
+              "bubbles": [
+                {
+                  "type": "speech danger",
+                  "side": "left",
+                  "text": "이제야 네 힘이 하나가 됐군.",
+                  "speaker": "노인"
+                }
+              ],
+              "shot": "He smiles in surprise while the wolf barks and the old man hides approval; reserve upper left."
+            },
+            {
+              "alt": "어머니의 마지막 얼음을 기억하고 자신의 힘으로 받아들이는 주인공",
+              "bubbles": [
+                {
+                  "type": "speech dark",
+                  "side": "right",
+                  "text": "얼음은 쓰고 싶지 않아.",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "The older boy refuses an ice-focused drill and angrily lets the blue spell fade because it reminds him of his mother; reserve upper right."
+            },
+            {
+              "alt": "어머니의 마지막 얼음을 기억하고 자신의 힘으로 받아들이는 주인공",
+              "bubbles": [
+                {
+                  "type": "thought",
+                  "side": "left",
+                  "text": "하지만 이 힘이\n나를 살려 줬어.",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "Alone at night he remembers, only as a translucent memory in the frost, his mother's final blue ice wall and warm expression; there is no physical locket, portrait or keepsake; reserve upper left."
+            },
+            {
+              "alt": "어머니의 마지막 얼음을 기억하고 자신의 힘으로 받아들이는 주인공",
+              "bubbles": [
+                {
+                  "type": "speech quiet",
+                  "side": "right",
+                  "text": "엄마의 힘도… 내 거야.",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "At dawn he deliberately forms a clean blue ice step under his feet and threads red through it, accepting both inheritances as one fused technique; reserve upper right."
             }
           ]
         },
         {
-          "image": "strips/ep-09/03-second-winter-discovery.png",
-          "alt": "피를 얼려 손실을 줄이는 전투법을 발견한 둘째 해",
-          "promptPanels": [
-            "Second winter: now older, the boy forms a transparent ice blade with thin crimson veins sealed inside instead of exposed blood; reserve upper left.",
-            "The weapon bends into a guided thread-blade without spilling more blood, striking multiple wooden targets; reserve upper right.",
-            "He smiles in surprise while the wolf barks and the old man hides approval; reserve upper left."
-          ],
-          "bubbles": [
+          "image": "assets/webtoon-v2/ep-09/page-3.jpg?v=1ffd625c2b2a",
+          "panels": [
             {
-              "type": "speech",
-              "side": "left",
-              "tail": "right",
-              "top": 7,
-              "width": 35,
-              "text": "피를 흘리는 게 아니라\n얼음 속에 가둔다."
+              "alt": "평범한 연습검과 최소한의 얼음으로 압도적인 검술을 보여주는 노인",
+              "bubbles": [
+                {
+                  "type": "speech danger",
+                  "side": "left",
+                  "text": "마법은 검을 대신하지 않는다.",
+                  "speaker": "노인"
+                }
+              ],
+              "shot": "White-haired old swordsman raises dull ordinary steel practice sword, pearl-white forehead stone, NO ice magic, no relic blade."
             },
             {
-              "type": "speech shout",
-              "side": "right",
-              "tail": "left",
-              "top": 40,
-              "width": 22,
-              "text": "됐다!"
+              "alt": "평범한 연습검과 최소한의 얼음으로 압도적인 검술을 보여주는 노인",
+              "bubbles": [
+                {
+                  "type": "speech danger",
+                  "side": "right",
+                  "text": "발 한 치, 칼길 한 줄이면 충분해.",
+                  "speaker": "노인"
+                }
+              ],
+              "shot": "He catches the students forward step with precise foot placement and redirects plain training blade with one touch; purely swordsmanship and balance, no frost."
             },
             {
-              "type": "speech danger",
-              "side": "left",
-              "tail": "right",
-              "top": 74,
-              "width": 35,
-              "text": "이제야 네 힘이 하나가 됐군."
-            }
-          ]
-        },
-        {
-          "image": "strips/ep-09/04-mothers-ice.png",
-          "alt": "어머니의 마지막 얼음을 기억하고 자신의 힘으로 받아들이는 주인공",
-          "promptPanels": [
-            "The older boy refuses an ice-focused drill and angrily lets the blue spell fade because it reminds him of his mother; reserve upper right.",
-            "Alone at night he remembers, only as a translucent memory in the frost, his mother's final blue ice wall and warm expression; there is no physical locket, portrait or keepsake; reserve upper left.",
-            "At dawn he deliberately forms a clean blue ice step under his feet and threads red through it, accepting both inheritances as one fused technique; reserve upper right."
-          ],
-          "bubbles": [
-            {
-              "type": "speech dark",
-              "side": "right",
-              "tail": "left",
-              "top": 7,
-              "width": 35,
-              "text": "얼음은 쓰고 싶지 않아."
+              "alt": "평범한 연습검과 최소한의 얼음으로 압도적인 검술을 보여주는 노인",
+              "bubbles": [
+                {
+                  "type": "speech",
+                  "side": "left",
+                  "text": "…언제 벤 거야?",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "Young protagonist falls into snow before understanding the move; old man rests plain STEEL practice sword on shoulder."
             },
             {
-              "type": "thought",
-              "side": "left",
-              "tail": "right",
-              "top": 40,
-              "width": 42,
-              "text": "하지만 이 힘이\n나를 살려 줬어."
+              "alt": "셋째 겨울 끝에 정예 장교급 기초를 갖춘 주인공",
+              "bubbles": [
+                {
+                  "type": "speech shout",
+                  "side": "right",
+                  "text": "이번엔 닿는다!",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "Third winter: nearly 15-year-old protagonist in lean black winter combat clothes spars at high speed with the old man across ice pillars; reserve upper right."
             },
             {
-              "type": "speech quiet",
-              "side": "right",
-              "tail": "left",
-              "top": 74,
-              "width": 23,
-              "text": "엄마의 힘도… 내 거야."
-            }
-          ]
-        },
-        {
-          "image": "strips/ep-09/05-lord-of-the-frozen-crown.png",
-          "alt": "평범한 연습검과 최소한의 얼음으로 압도적인 검술을 보여주는 노인",
-          "promptPanels": [
-            "The white-haired old man draws only a dull, ordinary steel practice sword with no crystal blade, no relic glow and no named weapon; his forehead Soulstone is restrained pearl-white; reserve upper left.",
-            "He changes only the friction under the boy's lead foot with a wafer-thin patch of frost and redirects the incoming black practice blade with one perfect sword touch; reserve upper right.",
-            "The boy is flat in snow before understanding what happened; the old man rests the plain steel practice sword on his shoulder; never reveal the Frozen Crown relic; reserve upper left."
-          ],
-          "bubbles": [
-            {
-              "type": "speech danger",
-              "side": "left",
-              "tail": "right",
-              "top": 7,
-              "width": 42,
-              "text": "마법은 검을 대신하지 않는다."
+              "alt": "셋째 겨울 끝에 정예 장교급 기초를 갖춘 주인공",
+              "bubbles": [
+                {
+                  "type": "speech danger",
+                  "side": "left",
+                  "text": "나쁘지 않다.",
+                  "speaker": "노인"
+                }
+              ],
+              "shot": "He combines frozen blood wires, footwork and the wolf's feint to force the old man to parry once seriously; reserve upper left."
             },
             {
-              "type": "speech danger",
-              "side": "right",
-              "tail": "left",
-              "top": 40,
-              "width": 38,
-              "text": "발 한 치, 칼길 한 줄이면 충분해."
-            },
-            {
-              "type": "speech",
-              "side": "left",
-              "tail": "right",
-              "top": 74,
-              "width": 28,
-              "text": "…언제 벤 거야?"
-            }
-          ]
-        },
-        {
-          "image": "strips/ep-09/06-third-winter-assessment.png",
-          "alt": "셋째 겨울 끝에 정예 장교급 기초를 갖춘 주인공",
-          "promptPanels": [
-            "Third winter: nearly 15-year-old protagonist in lean black winter combat clothes spars at high speed with the old man across ice pillars; reserve upper right.",
-            "He combines frozen blood wires, footwork and the wolf's feint to force the old man to parry once seriously; reserve upper left.",
-            "Afterward the old man gives a sober assessment beside three broken practice posts; reserve upper right."
-          ],
-          "bubbles": [
-            {
-              "type": "speech shout",
-              "side": "right",
-              "tail": "left",
-              "top": 7,
-              "width": 25,
-              "text": "이번엔 닿는다!"
-            },
-            {
-              "type": "speech danger",
-              "side": "left",
-              "tail": "right",
-              "top": 40,
-              "width": 29,
-              "text": "나쁘지 않다."
-            },
-            {
-              "type": "speech danger",
-              "side": "right",
-              "tail": "left",
-              "top": 74,
-              "width": 44,
-              "text": "정예 장교와 싸울 기초는 됐다.\n소장에게 덤비면 아직 죽는다."
+              "alt": "셋째 겨울 끝에 정예 장교급 기초를 갖춘 주인공",
+              "bubbles": [
+                {
+                  "type": "speech danger",
+                  "side": "right",
+                  "text": "정예 장교와 싸울 기초는 됐다.\n소장에게 덤비면 아직 죽는다.",
+                  "speaker": "노인"
+                }
+              ],
+              "shot": "Afterward the old man gives a sober assessment beside three broken practice posts; reserve upper right."
             }
           ]
         }
       ],
-      "thumbnail": "assets/webtoon/ep-09/01-first-winter-collapse.jpg"
+      "updated": true,
+      "thumbnail": "assets/webtoon-v2/ep-09/page-1.jpg?v=3eb89dcab95e"
     },
     "10": {
       "title": "한 줄의 상처",
       "intro": "세 번째 겨울 끝 · 열다섯 살",
-      "pages": [],
-      "updated": false,
-      "legacy": [
+      "pages": [
         {
-          "image": "strips/ep-10/01-final-test.png",
-          "alt": "노인에게 상처 하나를 내라는 마지막 시험",
-          "promptPanels": [
-            "At sunrise in a snowy training basin, the old man draws a circle around himself and tells the 15-year-old protagonist the final test; reserve upper left.",
-            "The protagonist attacks directly with black practice sword and frozen blood blade, but is disarmed instantly; reserve upper right.",
-            "A rapid montage within the third panel shows many failed approaches and the boy face-down outside the circle; reserve upper left."
-          ],
-          "bubbles": [
+          "image": "assets/webtoon-v2/ep-10/page-1.jpg?v=beb351166214",
+          "panels": [
             {
-              "type": "speech danger",
-              "side": "left",
-              "tail": "right",
-              "top": 7,
-              "width": 40,
-              "text": "내 몸에 상처 하나를 내라."
+              "alt": "노인에게 상처 하나를 내라는 마지막 시험",
+              "bubbles": [
+                {
+                  "type": "speech danger",
+                  "side": "left",
+                  "text": "내 몸에 상처 하나를 내라.",
+                  "speaker": "노인"
+                }
+              ],
+              "shot": "At sunrise the old man draws a circle in snow with an ORDINARY STEEL practice sword. Fifteen-year-old silver-haired student stands outside with ONLY one plain training sword in his hand, empty back with NO swords or straps."
             },
             {
-              "type": "speech",
-              "side": "right",
-              "tail": "left",
-              "top": 40,
-              "width": 27,
-              "text": "그 정도면 돼?"
+              "alt": "노인에게 상처 하나를 내라는 마지막 시험",
+              "bubbles": [
+                {
+                  "type": "speech",
+                  "side": "right",
+                  "text": "그 정도면 돼?",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "Student attacks with plain practice sword and a fine frozen-blood thread; old man immediately redirects the plain metal blade. Neither uses a glowing crystal weapon. Student back remains empty."
             },
             {
-              "type": "speech danger",
-              "side": "left",
-              "tail": "right",
-              "top": 74,
-              "width": 31,
-              "text": "말로는 그렇다."
+              "alt": "노인에게 상처 하나를 내라는 마지막 시험",
+              "bubbles": [
+                {
+                  "type": "speech danger",
+                  "side": "left",
+                  "text": "말로는 그렇다.",
+                  "speaker": "노인"
+                }
+              ],
+              "shot": "Student sprawls outside circle after repeated failures. Old man feet remain inside the circle, ordinary nonmagical steel blade lowered; one clear composition, no internal subpanels."
+            },
+            {
+              "alt": "정면 승부를 포기하고 함정을 설계하는 주인공",
+              "bubbles": [
+                {
+                  "type": "thought",
+                  "side": "right",
+                  "text": "정면으로는 못 이겨.",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "After another defeat, the boy studies footprints, reflections and wind instead of rushing again; reserve upper right."
+            },
+            {
+              "alt": "정면 승부를 포기하고 함정을 설계하는 주인공",
+              "bubbles": [
+                {
+                  "type": "speech quiet",
+                  "side": "left",
+                  "text": "피 냄새로 시선을 돌리고…",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "He leaves a trace of his own blood scent on the huge wolf's fur and sends the wolf across the old man's peripheral vision; reserve upper left."
+            },
+            {
+              "alt": "정면 승부를 포기하고 함정을 설계하는 주인공",
+              "bubbles": [
+                {
+                  "type": "thought",
+                  "side": "right",
+                  "text": "얼음에 비친 칼끝을 따라간다.",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "He creates several paper-thin ice mirrors close to the snow surface, hiding his true movement; reserve upper right."
             }
           ]
         },
         {
-          "image": "strips/ep-10/02-abandon-strength.png",
-          "alt": "정면 승부를 포기하고 함정을 설계하는 주인공",
-          "promptPanels": [
-            "After another defeat, the boy studies footprints, reflections and wind instead of rushing again; reserve upper right.",
-            "He leaves a trace of his own blood scent on the huge wolf's fur and sends the wolf across the old man's peripheral vision; reserve upper left.",
-            "He creates several paper-thin ice mirrors close to the snow surface, hiding his true movement; reserve upper right."
-          ],
-          "bubbles": [
+          "image": "assets/webtoon-v2/ep-10/page-2.jpg?v=6e35ba5e94da",
+          "panels": [
             {
-              "type": "thought",
-              "side": "right",
-              "tail": "left",
-              "top": 7,
-              "width": 39,
-              "text": "힘으로는 평생 못 이겨."
+              "alt": "피와 얼음의 함정으로 노인의 볼에 생채기를 내는 장면",
+              "bubbles": [
+                {
+                  "type": "thought",
+                  "side": "left",
+                  "text": "지금!",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "The old man turns toward the false blood scent as reflected images multiply underfoot; reserve upper left."
             },
             {
-              "type": "speech quiet",
-              "side": "left",
-              "tail": "right",
-              "top": 40,
-              "width": 28,
-              "text": "한 번만 도와줘."
+              "alt": "피와 얼음의 함정으로 노인의 볼에 생채기를 내는 장면",
+              "bubbles": [
+                {
+                  "type": "speech shout",
+                  "side": "right",
+                  "text": "닿아라!",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "The real protagonist slides low from the opposite side on a frictionless ice line and snaps a hair-thin frozen blood thread; reserve upper right."
             },
             {
-              "type": "thought",
-              "side": "right",
-              "tail": "left",
-              "top": 74,
-              "width": 35,
-              "text": "냄새는 저쪽.\n움직임은 얼음에 비춘다."
+              "alt": "피와 얼음의 함정으로 노인의 볼에 생채기를 내는 장면",
+              "bubbles": [
+                {
+                  "type": "speech danger",
+                  "side": "left",
+                  "text": "…합격이다.",
+                  "speaker": "노인"
+                }
+              ],
+              "shot": "Close-up: one clean shallow line appears on the old man's cheek; both freeze, then the old man smiles; no graphic blood; reserve upper left."
+            },
+            {
+              "alt": "흑도와 봉인된 쌍검을 받는 주인공",
+              "bubbles": [
+                {
+                  "type": "speech danger",
+                  "side": "right",
+                  "text": "평소에는 이 흑도를 써라.",
+                  "speaker": "노인"
+                }
+              ],
+              "shot": "Inside the cabin weapon room, the old man presents a single extremely black sword for ordinary combat; reserve upper right."
+            },
+            {
+              "alt": "흑도와 봉인된 쌍검을 받는 주인공",
+              "bubbles": [
+                {
+                  "type": "speech danger",
+                  "side": "left",
+                  "text": "쌍검은 들고만 다녀라.",
+                  "speaker": "노인"
+                }
+              ],
+              "shot": "He returns the two sealed heirloom vampire swords in matching sheaths, their relic Soulstone presence ominous; reserve upper left."
+            },
+            {
+              "alt": "흑도와 봉인된 쌍검을 받는 주인공",
+              "bubbles": [
+                {
+                  "type": "speech",
+                  "side": "right",
+                  "text": "언젠가는 쓸 수 있어?",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "The protagonist wears the black sword at his left hip and twin swords crossed on his back while the wolf receives a travel harness; reserve upper right."
             }
           ]
         },
         {
-          "image": "strips/ep-10/03-one-line-on-the-cheek.png",
-          "alt": "피와 얼음의 함정으로 노인의 볼에 생채기를 내는 장면",
-          "promptPanels": [
-            "The old man turns toward the false blood scent as reflected images multiply underfoot; reserve upper left.",
-            "The real protagonist slides low from the opposite side on a frictionless ice line and snaps a hair-thin frozen blood thread; reserve upper right.",
-            "Close-up: one clean shallow line appears on the old man's cheek; both freeze, then the old man smiles; no graphic blood; reserve upper left."
-          ],
-          "bubbles": [
+          "image": "assets/webtoon-v2/ep-10/page-3.jpg?v=9b45eae04343",
+          "panels": [
             {
-              "type": "thought",
-              "side": "left",
-              "tail": "right",
-              "top": 7,
-              "width": 24,
-              "text": "지금!"
+              "alt": "쌍검의 위험을 경고하고 몰래 추적 봉인을 거는 노인",
+              "bubbles": [
+                {
+                  "type": "speech danger",
+                  "side": "left",
+                  "text": "지금 뽑으면 네 피와 생명을 먹는다.",
+                  "speaker": "노인"
+                }
+              ],
+              "shot": "The old man lets the protagonist touch one sealed hilt; thin red energy immediately pulls at the boy's pulse and he jerks away; reserve upper left."
             },
             {
-              "type": "speech shout",
-              "side": "right",
-              "tail": "left",
-              "top": 40,
-              "width": 20,
-              "text": "닿아라!"
+              "alt": "쌍검의 위험을 경고하고 몰래 추적 봉인을 거는 노인",
+              "bubbles": [
+                {
+                  "type": "speech danger",
+                  "side": "right",
+                  "text": "네가 검을 쓰는 게 아니라\n검이 너를 쓸 것이다.",
+                  "speaker": "노인"
+                }
+              ],
+              "shot": "The old man explains two identical vampire souls and the life-draining cost while the boy listens seriously; reserve upper right."
             },
             {
-              "type": "speech danger",
-              "side": "left",
-              "tail": "right",
-              "top": 74,
-              "width": 27,
-              "text": "…합격이다."
-            }
-          ]
-        },
-        {
-          "image": "strips/ep-10/04-black-blade-and-twin-swords.png",
-          "alt": "흑도와 봉인된 쌍검을 받는 주인공",
-          "promptPanels": [
-            "Inside the cabin weapon room, the old man presents a single extremely black sword for ordinary combat; reserve upper right.",
-            "He returns the two sealed heirloom vampire swords in matching sheaths, their relic Soulstone presence ominous; reserve upper left.",
-            "The protagonist wears the black sword at his left hip and twin swords crossed on his back while the wolf receives a travel harness; reserve upper right."
-          ],
-          "bubbles": [
-            {
-              "type": "speech danger",
-              "side": "right",
-              "tail": "left",
-              "top": 7,
-              "width": 35,
-              "text": "평소에는 이 흑도를 써라."
+              "alt": "쌍검의 위험을 경고하고 몰래 추적 봉인을 거는 노인",
+              "bubbles": [
+                {
+                  "type": "thought",
+                  "side": "left",
+                  "text": "그래도 위치는 알아야 한다.",
+                  "speaker": "노인"
+                }
+              ],
+              "shot": "After the boy turns away, the old man discreetly touches the sheath and leaves a tiny blue tracking seal hidden beneath the wrap, no readable rune; reserve upper left."
             },
             {
-              "type": "speech danger",
-              "side": "left",
-              "tail": "right",
-              "top": 40,
-              "width": 38,
-              "text": "쌍검은 들고만 다녀라."
+              "alt": "열다섯 살 주인공이 늑대와 설산을 떠나고 노인이 봉인으로 위치를 지켜보는 장면",
+              "bubbles": [
+                {
+                  "type": "speech",
+                  "side": "right",
+                  "text": "다녀오겠습니다.",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "At dawn the 15-year-old protagonist bows once to the old man outside the cabin, weapons in place; huge wolf waits beside him; reserve upper right."
             },
             {
-              "type": "speech",
-              "side": "right",
-              "tail": "left",
-              "top": 74,
-              "width": 30,
-              "text": "언젠가는 쓸 수 있어?"
-            }
-          ]
-        },
-        {
-          "image": "strips/ep-10/05-warning-and-hidden-seal.png",
-          "alt": "쌍검의 위험을 경고하고 몰래 추적 봉인을 거는 노인",
-          "promptPanels": [
-            "The old man lets the protagonist touch one sealed hilt; thin red energy immediately pulls at the boy's pulse and he jerks away; reserve upper left.",
-            "The old man explains two identical vampire souls and the life-draining cost while the boy listens seriously; reserve upper right.",
-            "After the boy turns away, the old man discreetly touches the sheath and leaves a tiny blue tracking seal hidden beneath the wrap, no readable rune; reserve upper left."
-          ],
-          "bubbles": [
-            {
-              "type": "speech danger",
-              "side": "left",
-              "tail": "right",
-              "top": 7,
-              "width": 40,
-              "text": "지금 뽑으면 네 피와 생명을 먹는다."
+              "alt": "열다섯 살 주인공이 늑대와 설산을 떠나고 노인이 봉인으로 위치를 지켜보는 장면",
+              "bubbles": [
+                {
+                  "type": "speech danger",
+                  "side": "left",
+                  "text": "살아서 돌아와라.",
+                  "speaker": "노인"
+                }
+              ],
+              "shot": "The protagonist rides the large natural wolf down the mountain trail for the first time, black cloak and silver-white hair streaming; reserve upper left."
             },
             {
-              "type": "speech danger",
-              "side": "right",
-              "tail": "left",
-              "top": 40,
-              "width": 42,
-              "text": "네가 검을 쓰는 게 아니라\n검이 너를 쓸 것이다."
-            },
-            {
-              "type": "thought",
-              "side": "left",
-              "tail": "right",
-              "top": 74,
-              "width": 34,
-              "text": "그래도 위치는 알아야 한다."
-            }
-          ]
-        },
-        {
-          "image": "strips/ep-10/06-leaving-the-snow-mountain.png",
-          "alt": "열다섯 살 주인공이 늑대와 설산을 떠나고 노인이 봉인으로 위치를 지켜보는 장면",
-          "promptPanels": [
-            "At dawn the 15-year-old protagonist bows once to the old man outside the cabin, weapons in place; huge wolf waits beside him; reserve upper right.",
-            "The protagonist rides the large natural wolf down the mountain trail for the first time, black cloak and silver-white hair streaming; reserve upper left.",
-            "The old man stands alone at the cabin door, one gloved hand sensing the tiny hidden tracking seal on the distant twin-sword sheath; no locket, portrait, ornament or family keepsake; reserve upper right."
-          ],
-          "bubbles": [
-            {
-              "type": "speech",
-              "side": "right",
-              "tail": "left",
-              "top": 7,
-              "width": 28,
-              "text": "다녀오겠습니다."
-            },
-            {
-              "type": "speech danger",
-              "side": "left",
-              "tail": "right",
-              "top": 40,
-              "width": 24,
-              "text": "살아서 돌아와라."
-            },
-            {
-              "type": "thought",
-              "side": "right",
-              "tail": "left",
-              "top": 74,
-              "width": 31,
-              "text": "봉인은 아직 이어져 있다."
+              "alt": "열다섯 살 주인공이 늑대와 설산을 떠나고 노인이 봉인으로 위치를 지켜보는 장면",
+              "bubbles": [
+                {
+                  "type": "narration",
+                  "side": "right",
+                  "text": "봉인은 아직 이어져 있다.",
+                  "speaker": "-"
+                }
+              ],
+              "shot": "The old man stands alone at the cabin door, one gloved hand sensing the tiny hidden tracking seal on the distant twin-sword sheath; no locket, portrait, ornament or family keepsake; reserve upper right."
             }
           ]
         }
       ],
-      "thumbnail": "assets/webtoon/ep-10/01-final-test.jpg"
+      "updated": true,
+      "thumbnail": "assets/webtoon-v2/ep-10/page-1.jpg?v=beb351166214"
     },
     "11": {
       "title": "계곡을 찾는 자",
       "intro": "산 아래 난민 길 · 첫 여행",
-      "pages": [],
-      "updated": false,
-      "legacy": [
+      "pages": [
         {
-          "image": "strips/ep-11/01-captive-beastfolk.png",
-          "alt": "인간 용병에게 붙잡힌 어린 반인반수를 발견한 주인공",
-          "promptPanels": [
-            "On a muddy refugee road outside the walls, human mercenaries drag two young human-like beastfolk children in restraint collars; reserve upper left.",
-            "The 15-year-old protagonist on the huge wolf sees bruised ears and tails and his red-blue eyes harden; reserve upper right.",
-            "He dismounts silently with black sword while the mercenary leader raises a weapon; reserve upper left and upper right."
-          ],
-          "bubbles": [
+          "image": "assets/webtoon-v2/ep-11/page-1.jpg?v=401fb71d3f33",
+          "panels": [
             {
-              "type": "speech danger",
-              "side": "left",
-              "tail": "right",
-              "top": 7,
-              "width": 34,
-              "text": "상품을 건드리지 마."
+              "alt": "인간 용병에게 붙잡힌 어린 반인반수를 발견한 주인공",
+              "bubbles": [
+                {
+                  "type": "speech danger",
+                  "side": "left",
+                  "text": "상품을 건드리지 마.",
+                  "speaker": "용병"
+                }
+              ],
+              "shot": "On a muddy refugee road outside the walls, human mercenaries drag two young human-like beastfolk children in restraint collars; reserve upper left."
             },
             {
-              "type": "thought dark",
-              "side": "right",
-              "tail": "left",
-              "top": 40,
-              "width": 27,
-              "text": "또 인간이야."
+              "alt": "인간 용병에게 붙잡힌 어린 반인반수를 발견한 주인공",
+              "bubbles": [
+                {
+                  "type": "thought dark",
+                  "side": "right",
+                  "text": "또 인간이야.",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "The 15-year-old protagonist on the huge wolf sees bruised ears and tails and his red-blue eyes harden; reserve upper right."
             },
             {
-              "type": "speech danger",
-              "side": "left",
-              "tail": "right",
-              "top": 74,
-              "width": 31,
-              "text": "아이들을 놓아줘."
+              "alt": "인간 용병에게 붙잡힌 어린 반인반수를 발견한 주인공",
+              "bubbles": [
+                {
+                  "type": "speech danger",
+                  "side": "left",
+                  "text": "아이들을 놓아줘.",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "He dismounts silently with black sword while the mercenary leader raises a weapon; reserve upper left and upper right."
+            },
+            {
+              "alt": "용병을 죽이려다 어머니의 마지막 선택을 떠올리고 멈추는 주인공",
+              "bubbles": [
+                {
+                  "type": "speech danger",
+                  "side": "right",
+                  "text": "괴물 주제에—",
+                  "speaker": "용병"
+                }
+              ],
+              "shot": "The 15-year-old silver-white-haired protagonist overwhelms the mercenary leader and holds a frozen blood blade at his throat, anger taking over; non-graphic; reserve upper right."
+            },
+            {
+              "alt": "용병을 죽이려다 어머니의 마지막 선택을 떠올리고 멈추는 주인공",
+              "bubbles": [
+                {
+                  "type": "thought dark",
+                  "side": "left",
+                  "text": "죽이면 끝나.",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "Instead of any physical keepsake, the polished ice edge briefly reflects a translucent memory of his mother's final protective ice wall and her turning away; no locket, photograph or portrait; reserve upper left."
+            },
+            {
+              "alt": "용병을 죽이려다 어머니의 마지막 선택을 떠올리고 멈추는 주인공",
+              "bubbles": [
+                {
+                  "type": "thought",
+                  "side": "right",
+                  "text": "…엄마가 원한 건\n이게 아니야.",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "Close on the boy's hand trembling before he withdraws the blade; the huge natural gray wolf watches; reserve upper right."
             }
           ]
         },
         {
-          "image": "strips/ep-11/02-stop-at-the-locket.png",
-          "alt": "용병을 죽이려다 어머니의 마지막 선택을 떠올리고 멈추는 주인공",
-          "promptPanels": [
-            "The 15-year-old silver-white-haired protagonist overwhelms the mercenary leader and holds a frozen blood blade at his throat, anger taking over; non-graphic; reserve upper right.",
-            "Instead of any physical keepsake, the polished ice edge briefly reflects a translucent memory of his mother's final protective ice wall and her turning away; no locket, photograph or portrait; reserve upper left.",
-            "Close on the boy's hand trembling before he withdraws the blade; the huge natural gray wolf watches; reserve upper right."
-          ],
-          "bubbles": [
+          "image": "assets/webtoon-v2/ep-11/page-2.jpg?v=850ec4b7c2cb",
+          "panels": [
             {
-              "type": "speech danger",
-              "side": "right",
-              "tail": "left",
-              "top": 7,
-              "width": 28,
-              "text": "괴물 주제에—"
+              "alt": "사람을 죽이지 않고 포획 장치만 얼려 부수는 주인공",
+              "bubbles": [
+                {
+                  "type": "speech shout",
+                  "side": "left",
+                  "text": "무기만 부순다.",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "Protagonist secures his black STEEL sword in its sheath and freezes restraint locks and HUMAN mercenaries weapons, leaving the frightened captives untouched. Adult captors are ordinary human men with round ears, short brown hair, leather jackets; NO tusks, beast ears or animal faces."
             },
             {
-              "type": "thought dark",
-              "side": "left",
-              "tail": "right",
-              "top": 40,
-              "width": 30,
-              "text": "죽이면 끝나."
+              "alt": "사람을 죽이지 않고 포획 장치만 얼려 부수는 주인공",
+              "bubbles": [
+                {
+                  "type": "speech danger",
+                  "side": "right",
+                  "text": "다시 아이를 잡으면\n그때는 손을 얼린다.",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "Frozen cage locks snap open. The SAME short brown-haired HUMAN captors are held by frozen boots and weapon straps, alive and disarmed; human faces clearly visible, no monstrous captors."
             },
             {
-              "type": "thought",
-              "side": "right",
-              "tail": "left",
-              "top": 74,
-              "width": 34,
-              "text": "…엄마가 원한 건\n이게 아니야."
+              "alt": "사람을 죽이지 않고 포획 장치만 얼려 부수는 주인공",
+              "bubbles": [
+                {
+                  "type": "speech quiet",
+                  "side": "left",
+                  "text": "이제 괜찮아.",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "Silver-haired protagonist kneels beside a freed brown-haired child with small animal ears. Natural gray wolf offers its muzzle while a brown-haired deer-eared adult woman checks the other child."
+            },
+            {
+              "alt": "늑대인간의 이름을 듣고 도망치는 반인반수들",
+              "bubbles": [
+                {
+                  "type": "speech",
+                  "side": "right",
+                  "text": "계곡을 대표하는 사자를 찾고 있어.",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "Freed ordinary beastfolk families gather briefly around fire: BROWN-haired deer-eared adult mother, SHORT dark-haired rabbit-eared father and two children, simple patched tunics. Silver-haired hero asks about lion deputy. NO wolfman leader or golden lion deputy present; they have not met him."
+            },
+            {
+              "alt": "늑대인간의 이름을 듣고 도망치는 반인반수들",
+              "bubbles": [
+                {
+                  "type": "speech quiet",
+                  "side": "left",
+                  "text": "그 이름을 여기서 부르지 마.",
+                  "speaker": "피난민"
+                }
+              ],
+              "shot": "Same brown-haired deer mother and short dark-haired rabbit father recoil and pull children closer when lion is mentioned. Only these two modestly dressed parents, their children, hero and natural wolf."
+            },
+            {
+              "alt": "늑대인간의 이름을 듣고 도망치는 반인반수들",
+              "bubbles": [
+                {
+                  "type": "speech shout",
+                  "side": "right",
+                  "text": "아이들을 데리고 가자.",
+                  "speaker": "피난민"
+                }
+              ],
+              "shot": "Both families leave along different forest paths without answering. Hero and his ordinary gray wolf remain by dying fire. Neither famous beastfolk leader has appeared yet."
             }
           ]
         },
         {
-          "image": "strips/ep-11/03-freeze-the-cages.png",
-          "alt": "사람을 죽이지 않고 포획 장치만 얼려 부수는 주인공",
-          "promptPanels": [
-            "The protagonist sheathes the lethal blade and freezes every restraint collar and mercenary weapon at once; reserve upper left.",
-            "Ice cracks the cages open while mercenaries are pinned harmlessly by frozen boots and straps; reserve upper right.",
-            "He kneels to remove the last collar from a frightened beastfolk child while the wolf offers its muzzle; reserve upper left."
-          ],
-          "bubbles": [
+          "image": "assets/webtoon-v2/ep-11/page-3.jpg?v=4e51c2e65df8",
+          "panels": [
             {
-              "type": "speech shout",
-              "side": "left",
-              "tail": "right",
-              "top": 7,
-              "width": 29,
-              "text": "무기만 부순다."
+              "alt": "계곡 감시자에게 보이기 위해 혼합 소울스톤을 드러내는 주인공",
+              "bubbles": [
+                {
+                  "type": "thought",
+                  "side": "left",
+                  "text": "길이 없는 게 아니야.\n우리를 보고 있어.",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "Several days of searching: the protagonist and wolf examine tracks that deliberately vanish at cliffs; reserve upper left."
             },
             {
-              "type": "speech danger",
-              "side": "right",
-              "tail": "left",
-              "top": 40,
-              "width": 35,
-              "text": "다시 아이를 잡으면\n그때는 손을 얼린다."
+              "alt": "계곡 감시자에게 보이기 위해 혼합 소울스톤을 드러내는 주인공",
+              "bubbles": [
+                {
+                  "type": "speech danger",
+                  "side": "right",
+                  "text": "숨지 않겠다.\n지도자에게 전해.",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "He realizes hidden watchers are following from treetops and removes his forehead wrap, revealing the pale-blue Soulstone with irregular red veins; reserve upper right."
             },
             {
-              "type": "speech quiet",
-              "side": "left",
-              "tail": "right",
-              "top": 74,
-              "width": 28,
-              "text": "이제 괜찮아."
-            }
-          ]
-        },
-        {
-          "image": "strips/ep-11/04-name-that-causes-fear.png",
-          "alt": "늑대인간의 이름을 듣고 도망치는 반인반수들",
-          "promptPanels": [
-            "Freed beastfolk gather cautiously around a fire while the protagonist asks for the hidden valley and wolfman leader; reserve upper right.",
-            "At the name, ears flatten and faces turn pale; parents pull children away; reserve upper left.",
-            "The group scatters into different forest paths without answering, leaving protagonist and wolf alone; reserve upper right."
-          ],
-          "bubbles": [
-            {
-              "type": "speech",
-              "side": "right",
-              "tail": "left",
-              "top": 7,
-              "width": 39,
-              "text": "회백색 늑대인간이 있는\n계곡을 찾고 있어."
+              "alt": "계곡 감시자에게 보이기 위해 혼합 소울스톤을 드러내는 주인공",
+              "bubbles": [
+                {
+                  "type": "speech danger",
+                  "side": "left",
+                  "text": "혼혈이 계곡을 찾는다.",
+                  "speaker": "감시자"
+                }
+              ],
+              "shot": "Multiple subtle beastfolk eyes and silhouettes react in the canopy while he waits openly beside a fire; reserve upper left."
             },
             {
-              "type": "speech quiet",
-              "side": "left",
-              "tail": "right",
-              "top": 40,
-              "width": 24,
-              "text": "그 이름은 말하지 마."
+              "alt": "절벽에서 내려와 결투를 요구하는 사자인간 2인자",
+              "bubbles": [
+                {
+                  "type": "speech danger",
+                  "side": "right",
+                  "text": "아이들을 풀어줬다더군.",
+                  "speaker": "사자인간"
+                }
+              ],
+              "shot": "Night in a narrow valley, golden eyes appear on the high cliff above protagonist and wolf; reserve upper right."
             },
             {
-              "type": "speech shout",
-              "side": "right",
-              "tail": "left",
-              "top": 74,
-              "width": 21,
-              "text": "가자!"
-            }
-          ]
-        },
-        {
-          "image": "strips/ep-11/05-show-the-mixed-stone.png",
-          "alt": "계곡 감시자에게 보이기 위해 혼합 소울스톤을 드러내는 주인공",
-          "promptPanels": [
-            "Several days of searching: the protagonist and wolf examine tracks that deliberately vanish at cliffs; reserve upper left.",
-            "He realizes hidden watchers are following from treetops and removes his forehead wrap, revealing the pale-blue Soulstone with irregular red veins; reserve upper right.",
-            "Multiple subtle beastfolk eyes and silhouettes react in the canopy while he waits openly beside a fire; reserve upper left."
-          ],
-          "bubbles": [
-            {
-              "type": "thought",
-              "side": "left",
-              "tail": "right",
-              "top": 7,
-              "width": 35,
-              "text": "길이 없는 게 아니야.\n우리를 보고 있어."
+              "alt": "절벽에서 내려와 결투를 요구하는 사자인간 2인자",
+              "bubbles": [
+                {
+                  "type": "speech",
+                  "side": "left",
+                  "text": "네 지도자와 이야기하고 싶어.",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "A handsome scarred golden-haired lion beastman with lion ears, tail and subtle mane drops down, landing with relic knuckles; reserve upper left."
             },
             {
-              "type": "speech danger",
-              "side": "right",
-              "tail": "left",
-              "top": 40,
-              "width": 36,
-              "text": "숨지 않겠다.\n지도자에게 전해."
-            },
-            {
-              "type": "speech danger",
-              "side": "left",
-              "tail": "right",
-              "top": 74,
-              "width": 32,
-              "text": "혼혈이 계곡을 찾는다."
-            }
-          ]
-        },
-        {
-          "image": "strips/ep-11/06-lion-on-the-cliff.png",
-          "alt": "절벽에서 내려와 결투를 요구하는 사자인간 2인자",
-          "promptPanels": [
-            "Night in a narrow valley, golden eyes appear on the high cliff above protagonist and wolf; reserve upper right.",
-            "A handsome scarred golden-haired lion beastman with lion ears, tail and subtle mane drops down, landing with relic knuckles; reserve upper left.",
-            "He transforms from a more feral silhouette into his attractive human-like combat form and points one knuckle at the protagonist; reserve upper left and upper right."
-          ],
-          "bubbles": [
-            {
-              "type": "speech danger",
-              "side": "right",
-              "tail": "left",
-              "top": 7,
-              "width": 25,
-              "text": "네가 나를 찾았나?"
-            },
-            {
-              "type": "speech",
-              "side": "left",
-              "tail": "right",
-              "top": 40,
-              "width": 28,
-              "text": "계곡의 지도자를 만나겠다."
-            },
-            {
-              "type": "speech danger",
-              "side": "right",
-              "tail": "left",
-              "top": 74,
-              "width": 42,
-              "text": "내 뒤로 가고 싶다면\n먼저 힘으로 증명해."
+              "alt": "절벽에서 내려와 결투를 요구하는 사자인간 2인자",
+              "bubbles": [
+                {
+                  "type": "speech danger",
+                  "side": "right",
+                  "text": "먼저 네가 얼마나 버티는지 보자.",
+                  "speaker": "사자인간"
+                }
+              ],
+              "shot": "He transforms from a more feral silhouette into his attractive human-like combat form and points one knuckle at the protagonist; reserve upper left and upper right."
             }
           ]
         }
       ],
-      "thumbnail": "assets/webtoon/ep-11/01-captive-beastfolk.jpg"
+      "updated": true,
+      "thumbnail": "assets/webtoon-v2/ep-11/page-1.jpg?v=401fb71d3f33"
     },
     "12": {
       "title": "사자의 주먹",
       "intro": "반인반수 계곡 입구 · 사자의 시험",
-      "pages": [],
-      "updated": false,
-      "legacy": [
+      "pages": [
         {
-          "image": "strips/ep-12/01-ancestor-knuckles.png",
-          "alt": "선조 유물 소울스톤을 하나씩 활성화하는 사자인간",
-          "promptPanels": [
-            "The lion beastman raises both large relic knuckles, several inset ancestor Soulstones visible but only one glowing gold; reserve upper left.",
-            "He switches to a blue stone and his stance changes from raw force to flowing speed; all other stones dark; reserve upper right.",
-            "The protagonist watches the tiny dead interval while one glow fades before the next ignites; reserve upper left."
-          ],
-          "bubbles": [
+          "image": "assets/webtoon-v2/ep-12/page-1.jpg?v=7e9aada6455a",
+          "panels": [
             {
-              "type": "speech danger",
-              "side": "left",
-              "tail": "right",
-              "top": 7,
-              "width": 38,
-              "text": "이건 쓰러진 선조들의 힘이다."
+              "alt": "선조 유물 소울스톤을 하나씩 활성화하는 사자인간",
+              "bubbles": [
+                {
+                  "type": "narration",
+                  "side": "left",
+                  "text": "날이 밝자, 사자의 시험이 시작됐다.",
+                  "speaker": "-"
+                },
+                {
+                  "type": "speech danger",
+                  "side": "left",
+                  "text": "이건 쓰러진 선조들의 힘이다.",
+                  "speaker": "사자인간"
+                }
+              ],
+              "shot": "The lion beastman raises both large relic knuckles, several inset ancestor Soulstones visible but only one glowing gold; reserve upper left."
             },
             {
-              "type": "speech danger",
-              "side": "right",
-              "tail": "left",
-              "top": 40,
-              "width": 34,
-              "text": "한 번에 하나.\n그걸로도 충분하지."
+              "alt": "선조 유물 소울스톤을 하나씩 활성화하는 사자인간",
+              "bubbles": [
+                {
+                  "type": "speech danger",
+                  "side": "right",
+                  "text": "한 번에 하나.\n그걸로도 충분하지.",
+                  "speaker": "사자인간"
+                }
+              ],
+              "shot": "He switches to a blue stone and his stance changes from raw force to flowing speed; all other stones dark; reserve upper right."
             },
             {
-              "type": "thought",
-              "side": "left",
-              "tail": "right",
-              "top": 74,
-              "width": 33,
-              "text": "빛이 바뀌는 순간…\n연결이 끊긴다."
+              "alt": "선조 유물 소울스톤을 하나씩 활성화하는 사자인간",
+              "bubbles": [
+                {
+                  "type": "thought",
+                  "side": "left",
+                  "text": "빛이 바뀌는 순간…\n연결이 끊긴다.",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "The protagonist watches the tiny dead interval while one glow fades before the next ignites; reserve upper left."
+            },
+            {
+              "alt": "계곡을 가르는 사자의 주먹과 이를 피하는 주인공",
+              "bubbles": [
+                {
+                  "type": "speech shout",
+                  "side": "right",
+                  "text": "견뎌 봐라!",
+                  "speaker": "사자인간"
+                }
+              ],
+              "shot": "The lion beastman throws one colossal golden punch that splits a valley wall and sends a clean shockwave past protagonist; reserve upper right."
+            },
+            {
+              "alt": "계곡을 가르는 사자의 주먹과 이를 피하는 주인공",
+              "bubbles": [
+                {
+                  "type": "thought",
+                  "side": "left",
+                  "text": "정면으로 받으면 끝이야.",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "The protagonist uses a thin ice slide to evade while the huge wolf leaps to higher ground; reserve upper left."
+            },
+            {
+              "alt": "계곡을 가르는 사자의 주먹과 이를 피하는 주인공",
+              "bubbles": [
+                {
+                  "type": "speech danger",
+                  "side": "right",
+                  "text": "도망만 칠 셈인가?",
+                  "speaker": "사자인간"
+                }
+              ],
+              "shot": "He tries a frozen blood counter but lion switches stones and smashes it with a faster blue-glowing knuckle; reserve upper right."
             }
           ]
         },
         {
-          "image": "strips/ep-12/02-valley-breaking-punch.png",
-          "alt": "계곡을 가르는 사자의 주먹과 이를 피하는 주인공",
-          "promptPanels": [
-            "The lion beastman throws one colossal golden punch that splits a valley wall and sends a clean shockwave past protagonist; reserve upper right.",
-            "The protagonist uses a thin ice slide to evade while the huge wolf leaps to higher ground; reserve upper left.",
-            "He tries a frozen blood counter but lion switches stones and smashes it with a faster blue-glowing knuckle; reserve upper right."
-          ],
-          "bubbles": [
+          "image": "assets/webtoon-v2/ep-12/page-2.jpg?v=257ad41e7366",
+          "panels": [
             {
-              "type": "speech shout",
-              "side": "right",
-              "tail": "left",
-              "top": 7,
-              "width": 24,
-              "text": "견뎌 봐라!"
+              "alt": "유물 전환 공백을 확인하는 주인공",
+              "bubbles": [
+                {
+                  "type": "thought",
+                  "side": "left",
+                  "text": "세 번 바꾸게 만들면…",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "The protagonist deliberately sends small ice shards from three directions, forcing rapid knuckle relic switches; reserve upper left."
             },
             {
-              "type": "thought",
-              "side": "left",
-              "tail": "right",
-              "top": 40,
-              "width": 34,
-              "text": "정면으로 받으면 끝이야."
+              "alt": "유물 전환 공백을 확인하는 주인공",
+              "bubbles": [
+                {
+                  "type": "thought",
+                  "side": "right",
+                  "text": "지금 비었다.",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "Close-up of one ancestor stone going dark a heartbeat before the next lights, lion's guard briefly bare; reserve upper right."
             },
             {
-              "type": "speech danger",
-              "side": "right",
-              "tail": "left",
-              "top": 74,
-              "width": 31,
-              "text": "도망만 칠 셈인가?"
+              "alt": "유물 전환 공백을 확인하는 주인공",
+              "bubbles": [
+                {
+                  "type": "speech quiet",
+                  "side": "left",
+                  "text": "다음에 끝낸다.",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "The protagonist takes a glancing hit on purpose to mark the exact rhythm with frozen blood droplets; non-graphic; reserve upper left."
+            },
+            {
+              "alt": "물길과 피의 얼음으로 사자인간의 궤도를 제한하는 주인공",
+              "bubbles": [
+                {
+                  "type": "speech",
+                  "side": "right",
+                  "text": "힘을 막을 필요는 없어.",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "The protagonist cuts a mountain stream channel, spreading a shallow sheet of water across the battle floor; reserve upper right."
+            },
+            {
+              "alt": "물길과 피의 얼음으로 사자인간의 궤도를 제한하는 주인공",
+              "bubbles": [
+                {
+                  "type": "speech",
+                  "side": "left",
+                  "text": "갈 수 있는 길만 줄인다.",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "He freezes selective lanes and threads red lines beneath the ice, turning the valley into a controlled movement grid; reserve upper left."
+            },
+            {
+              "alt": "물길과 피의 얼음으로 사자인간의 궤도를 제한하는 주인공",
+              "bubbles": [
+                {
+                  "type": "speech shout",
+                  "side": "right",
+                  "text": "잡았다!",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "When lion switches stones and steps into the gap, his lead foot is redirected and protagonist's black sword stops at his chest; reserve upper right."
             }
           ]
         },
         {
-          "image": "strips/ep-12/03-find-the-switch-gap.png",
-          "alt": "유물 전환 공백을 확인하는 주인공",
-          "promptPanels": [
-            "The protagonist deliberately sends small ice shards from three directions, forcing rapid knuckle relic switches; reserve upper left.",
-            "Close-up of one ancestor stone going dark a heartbeat before the next lights, lion's guard briefly bare; reserve upper right.",
-            "The protagonist takes a glancing hit on purpose to mark the exact rhythm with frozen blood droplets; non-graphic; reserve upper left."
-          ],
-          "bubbles": [
+          "image": "assets/webtoon-v2/ep-12/page-3.jpg?v=c501b2a78a4b",
+          "panels": [
             {
-              "type": "thought",
-              "side": "left",
-              "tail": "right",
-              "top": 7,
-              "width": 37,
-              "text": "세 번 바꾸게 만들면…"
+              "alt": "마지막 일격을 멈추고 동맹을 제안하는 주인공",
+              "bubbles": [
+                {
+                  "type": "speech danger",
+                  "side": "left",
+                  "text": "끝내라.",
+                  "speaker": "사자인간"
+                }
+              ],
+              "shot": "The lion beastman falls to one knee with his active relic dark, protagonist's frozen blood blade poised at his throat; reserve upper left."
             },
             {
-              "type": "thought",
-              "side": "right",
-              "tail": "left",
-              "top": 40,
-              "width": 28,
-              "text": "지금 비었다."
+              "alt": "마지막 일격을 멈추고 동맹을 제안하는 주인공",
+              "bubbles": [
+                {
+                  "type": "speech",
+                  "side": "right",
+                  "text": "죽이러 온 게 아니야.",
+                  "speaker": "소년"
+                }
+              ],
+              "shot": "Close-up of the protagonist remembering the mercenary and mother, then deliberately withdrawing the blade; reserve upper right."
             },
             {
-              "type": "speech quiet",
-              "side": "left",
-              "tail": "right",
-              "top": 74,
-              "width": 25,
-              "text": "다음에 끝낸다."
-            }
-          ]
-        },
-        {
-          "image": "strips/ep-12/04-limit-the-lions-path.png",
-          "alt": "물길과 피의 얼음으로 사자인간의 궤도를 제한하는 주인공",
-          "promptPanels": [
-            "The protagonist cuts a mountain stream channel, spreading a shallow sheet of water across the battle floor; reserve upper right.",
-            "He freezes selective lanes and threads red lines beneath the ice, turning the valley into a controlled movement grid; reserve upper left.",
-            "When lion switches stones and steps into the gap, his lead foot is redirected and protagonist's black sword stops at his chest; reserve upper right."
-          ],
-          "bubbles": [
-            {
-              "type": "speech",
-              "side": "right",
-              "tail": "left",
-              "top": 7,
-              "width": 30,
-              "text": "힘을 막을 필요는 없어."
+              "alt": "마지막 일격을 멈추고 동맹을 제안하는 주인공",
+              "bubbles": [
+                {
+                  "type": "speech",
+                  "side": "left",
+                  "text": "함께 세계를 바꾸자.",
+                  "speaker": "소년"
+                },
+                {
+                  "type": "speech danger",
+                  "side": "right",
+                  "text": "…날 살려 둔다고?",
+                  "speaker": "사자인간"
+                }
+              ],
+              "shot": "He offers his open hand to the stunned lion while hidden beastfolk emerge around the broken valley; reserve upper left and upper right."
             },
             {
-              "type": "speech",
-              "side": "left",
-              "tail": "right",
-              "top": 40,
-              "width": 34,
-              "text": "갈 수 있는 길만 줄인다."
+              "alt": "진짜 지도자인 늑대인간의 등장과 인간군 접근 경보",
+              "bubbles": [
+                {
+                  "type": "narration",
+                  "side": "right",
+                  "text": "모두가 한 사람에게 고개를 숙였다.",
+                  "speaker": "-"
+                }
+              ],
+              "shot": "All gathered beastfolk suddenly bow as a handsome gray-white-haired wolfman leader walks from shadow with wolf ears, tail, red eyes and claws; minotaur officers behind; reserve upper right."
             },
             {
-              "type": "speech shout",
-              "side": "right",
-              "tail": "left",
-              "top": 74,
-              "width": 19,
-              "text": "잡았다!"
-            }
-          ]
-        },
-        {
-          "image": "strips/ep-12/05-stop-before-the-throat.png",
-          "alt": "마지막 일격을 멈추고 동맹을 제안하는 주인공",
-          "promptPanels": [
-            "The lion beastman falls to one knee with his active relic dark, protagonist's frozen blood blade poised at his throat; reserve upper left.",
-            "Close-up of the protagonist remembering the mercenary and mother, then deliberately withdrawing the blade; reserve upper right.",
-            "He offers his open hand to the stunned lion while hidden beastfolk emerge around the broken valley; reserve upper left and upper right."
-          ],
-          "bubbles": [
-            {
-              "type": "speech danger",
-              "side": "left",
-              "tail": "right",
-              "top": 7,
-              "width": 25,
-              "text": "끝내라."
+              "alt": "진짜 지도자인 늑대인간의 등장과 인간군 접근 경보",
+              "bubbles": [
+                {
+                  "type": "speech danger",
+                  "side": "left",
+                  "text": "복수만 말하는 자에게\n우리 아이들을 맡길 수 없다.",
+                  "speaker": "늑대인간"
+                }
+              ],
+              "shot": "The protagonist feels overwhelming pressure as wolfman looks at the spared lion and then at him with distrust; reserve upper left."
             },
             {
-              "type": "speech",
-              "side": "right",
-              "tail": "left",
-              "top": 40,
-              "width": 25,
-              "text": "죽이러 온 게 아니야."
-            },
-            {
-              "type": "speech",
-              "side": "left",
-              "tail": "right",
-              "top": 74,
-              "width": 39,
-              "text": "함께 세계를 바꾸자."
-            },
-            {
-              "type": "speech danger",
-              "side": "right",
-              "tail": "left",
-              "top": 83,
-              "width": 24,
-              "text": "…날 살려 둔다고?"
-            }
-          ]
-        },
-        {
-          "image": "strips/ep-12/06-true-leader-and-warning.png",
-          "alt": "진짜 지도자인 늑대인간의 등장과 인간군 접근 경보",
-          "promptPanels": [
-            "All gathered beastfolk suddenly bow as a handsome gray-white-haired wolfman leader walks from shadow with wolf ears, tail, red eyes and claws; minotaur officers behind; reserve upper right.",
-            "The protagonist feels overwhelming pressure as wolfman looks at the spared lion and then at him with distrust; reserve upper left.",
-            "Before confrontation continues, a beastfolk scout arrives on the cliff signaling a large human force approaching the valley; reserve upper left and upper right."
-          ],
-          "bubbles": [
-            {
-              "type": "narration",
-              "side": "right",
-              "top": 7,
-              "width": 36,
-              "text": "모두가 한 사람에게 고개를 숙였다."
-            },
-            {
-              "type": "speech danger",
-              "side": "left",
-              "tail": "right",
-              "top": 40,
-              "width": 41,
-              "text": "복수만 말하는 자가\n우리 공동체를 이용하려 드는군."
-            },
-            {
-              "type": "speech shout",
-              "side": "left",
-              "tail": "right",
-              "top": 73,
-              "width": 34,
-              "text": "인간 군이 접근합니다!"
-            },
-            {
-              "type": "speech danger",
-              "side": "right",
-              "tail": "left",
-              "top": 83,
-              "width": 27,
-              "text": "비밀 통로 쪽입니다!"
+              "alt": "진짜 지도자인 늑대인간의 등장과 인간군 접근 경보",
+              "bubbles": [
+                {
+                  "type": "speech shout",
+                  "side": "left",
+                  "text": "계곡 밖에 인간 군이 집결 중입니다!",
+                  "speaker": "정찰병"
+                },
+                {
+                  "type": "speech danger",
+                  "side": "right",
+                  "text": "비밀 통로까지 살피고 있습니다!",
+                  "speaker": "정찰병"
+                }
+              ],
+              "shot": "Before confrontation continues, a beastfolk scout arrives on the cliff signaling a large human force approaching the valley; reserve upper left and upper right."
             }
           ]
         }
       ],
-      "thumbnail": "assets/webtoon/ep-12/01-ancestor-knuckles.jpg"
+      "updated": true,
+      "thumbnail": "assets/webtoon-v2/ep-12/page-1.jpg?v=7e9aada6455a"
     },
     "13": {
       "title": "진짜 지도자",
-      "intro": "계곡의 피난처 · 접근하는 토벌대",
+      "intro": "그날 밤 · 계곡 바깥을 봉쇄한 토벌대",
       "pages": [],
       "updated": false,
       "legacy": [
@@ -13432,7 +13515,11 @@ const SOULSTONE_WEBTOON_V2 = {
     5,
     6,
     7,
-    8
+    8,
+    9,
+    10,
+    11,
+    12
   ],
   "checkpointDate": "2026-09-13"
 };
